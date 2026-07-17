@@ -1,0 +1,24 @@
+{
+  "name": "Vinyl Streamer",
+  "short_name": "Vinyl",
+  "description": "Ascolta in streaming la tua collezione di vinili Discogs su Spotify o Amazon Music",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#121212",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

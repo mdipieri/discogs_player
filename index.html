@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#121212">
+  <meta name="description" content="Ascolta in streaming la tua collezione di vinili Discogs su Spotify o Amazon Music">
+  <title>Vinyl Streamer</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <h1 class="logo"><span class="logo-disc" aria-hidden="true"></span> Vinyl Streamer</h1>
+      <div class="topbar-actions">
+        <button id="btn-random" class="icon-btn" title="Album a caso">🎲</button>
+        <button id="btn-refresh" class="icon-btn" title="Ricarica collezione da Discogs">⟳</button>
+        <button id="btn-settings" class="icon-btn" title="Impostazioni">⚙</button>
+      </div>
+    </div>
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Cerca artista o album…" autocomplete="off">
+      <select id="genre-filter" title="Filtra per genere">
+        <option value="">Tutti i generi</option>
+      </select>
+      <select id="sort" title="Ordina">
+        <option value="added-desc">Aggiunti di recente</option>
+        <option value="artist">Artista A–Z</option>
+        <option value="title">Titolo A–Z</option>
+        <option value="year">Anno ↑</option>
+        <option value="year-desc">Anno ↓</option>
+      </select>
+    </div>
+  </header>
+
+  <main>
+    <div id="status" class="status" hidden>
+      <div class="spinner" aria-hidden="true"></div>
+      <p id="status-text">Carico la collezione…</p>
+      <div class="progress"><div id="progress-bar" class="progress-bar"></div></div>
+    </div>
+    <div id="error" class="error" hidden></div>
+    <p id="count" class="count" hidden></p>
+    <div id="grid" class="grid"></div>
+  </main>
+
+  <!-- Dettaglio album -->
+  <dialog id="album-dialog" class="album-dialog">
+    <button class="dialog-close" data-close title="Chiudi">✕</button>
+    <div class="album-detail">
+      <img id="detail-cover" class="detail-cover" alt="" loading="lazy">
+      <div class="detail-info">
+        <h2 id="detail-title"></h2>
+        <p id="detail-artist" class="detail-artist"></p>
+        <p id="detail-meta" class="detail-meta"></p>
+        <div class="listen-buttons">
+          <a id="link-spotify" class="listen-btn spotify" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.5 17.3a.75.75 0 0 1-1.03.25c-2.82-1.72-6.37-2.11-10.55-1.16a.75.75 0 1 1-.33-1.46c4.57-1.05 8.5-.6 11.66 1.34.35.22.46.68.25 1.03zm1.47-3.27a.94.94 0 0 1-1.29.31c-3.23-1.98-8.15-2.56-11.97-1.4a.94.94 0 1 1-.55-1.8c4.37-1.32 9.79-.68 13.5 1.6.44.27.58.85.31 1.29zm.13-3.4C15.24 8.33 8.85 8.12 5.15 9.24a1.13 1.13 0 1 1-.65-2.16C8.75 5.79 15.8 6.04 20.26 8.7a1.13 1.13 0 0 1-1.16 1.93z"/></svg>
+            Ascolta su Spotify
+          </a>
+          <a id="link-amazon" class="listen-btn amazon" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M9 3v10.55A4 4 0 1 0 11 17V7h6V3H9z"/></svg>
+            Ascolta su Amazon Music
+          </a>
+          <a id="link-ytmusic" class="listen-btn ytmusic" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16zm-2-12.5 6 4.5-6 4.5v-9z"/></svg>
+            YouTube Music
+          </a>
+          <a id="link-discogs" class="listen-btn discogs" target="_blank" rel="noopener">
+            Scheda su Discogs ↗
+          </a>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Impostazioni -->
+  <dialog id="settings-dialog" class="settings-dialog">
+    <button class="dialog-close" data-close title="Chiudi">✕</button>
+    <h2>Impostazioni</h2>
+    <form id="settings-form" method="dialog">
+      <label>
+        Utente Discogs
+        <input id="setting-username" type="text" autocomplete="off" autocapitalize="off" spellcheck="false">
+      </label>
+      <label>
+        Token personale Discogs <small>(opzionale, velocizza il caricamento — <a href="https://www.discogs.com/settings/developers" target="_blank" rel="noopener">generalo qui</a>)</small>
+        <input id="setting-token" type="password" autocomplete="off">
+      </label>
+      <button type="submit" class="primary-btn">Salva e ricarica</button>
+    </form>
+  </dialog>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
