@@ -240,7 +240,7 @@
     // "Various" nella query confonde la ricerca: per le compilation usa solo il titolo.
     const query = r.artist === "Various" ? r.title : `${r.artist} ${r.title}`;
     const q = encodeURIComponent(query);
-    $("#link-spotify").href = `https://open.spotify.com/search/${q}/albums`;
+    $("#link-spotify").href = `https://open.spotify.com/search/${q}`;
     $("#link-amazon").href = `https://music.amazon.com/search/${q}`;
     $("#link-ytmusic").href = `https://music.youtube.com/search?q=${q}`;
     $("#link-discogs").href = `https://www.discogs.com/release/${r.id}`;
