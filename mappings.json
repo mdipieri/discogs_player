@@ -1,1 +1,4028 @@
-{}
+{
+  "2299": {
+    "artist": "Depeche Mode",
+    "title": "World In My Eyes / Happiest Girl / Sea Of Sin",
+    "spotify": null,
+    "amazon": null
+  },
+  "12507": {
+    "artist": "New Order",
+    "title": "Thieves Like Us",
+    "spotify": null,
+    "amazon": null
+  },
+  "12685": {
+    "artist": "New Order",
+    "title": "True Faith / 1963",
+    "spotify": null,
+    "amazon": null
+  },
+  "24396": {
+    "artist": "Depeche Mode",
+    "title": "Master And Servant (Slavery Whip Mix)",
+    "spotify": null,
+    "amazon": null
+  },
+  "26725": {
+    "artist": "New Order",
+    "title": "Touched By The Hand Of God",
+    "spotify": null,
+    "amazon": null
+  },
+  "28843": {
+    "artist": "New Order",
+    "title": "Fine Time",
+    "spotify": null,
+    "amazon": null
+  },
+  "38715": {
+    "artist": "Depeche Mode",
+    "title": "A Question Of Lust",
+    "spotify": null,
+    "amazon": null
+  },
+  "46905": {
+    "artist": "Depeche Mode",
+    "title": "Violator",
+    "spotify": null,
+    "amazon": "B01N8T537Z"
+  },
+  "50219": {
+    "artist": "Depeche Mode",
+    "title": "Shake The Disease (Remixed Extended Version)",
+    "spotify": null,
+    "amazon": null
+  },
+  "56052": {
+    "artist": "Depeche Mode",
+    "title": "See You (Extended Version)",
+    "spotify": null,
+    "amazon": null
+  },
+  "58672": {
+    "artist": "New Order",
+    "title": "The Perfect Kiss",
+    "spotify": null,
+    "amazon": null
+  },
+  "86631": {
+    "artist": "Pizzicato Five",
+    "title": "Happy End Of The World",
+    "spotify": null,
+    "amazon": null
+  },
+  "95752": {
+    "artist": "New Order",
+    "title": "Run 2",
+    "spotify": null,
+    "amazon": null
+  },
+  "121779": {
+    "artist": "The Shamen",
+    "title": "In Gorbachev We Trust",
+    "spotify": null,
+    "amazon": null
+  },
+  "131045": {
+    "artist": "Rebel MC",
+    "title": "Rebel Music",
+    "spotify": null,
+    "amazon": null
+  },
+  "149615": {
+    "artist": "King Tubby And Friends",
+    "title": "Dub Gone Crazy (The Evolution Of Dub At King Tubby's 1975-1979)",
+    "spotify": null,
+    "amazon": null
+  },
+  "174085": {
+    "artist": "Singers & Players",
+    "title": "War Of Words",
+    "spotify": null,
+    "amazon": null
+  },
+  "174089": {
+    "artist": "Singers & Players",
+    "title": "Vacuum Pumping",
+    "spotify": null,
+    "amazon": null
+  },
+  "191499": {
+    "artist": "Manu Dibango",
+    "title": "Abele Dance",
+    "spotify": null,
+    "amazon": null
+  },
+  "202705": {
+    "artist": "Depeche Mode",
+    "title": "The Singles 81 → 85",
+    "spotify": null,
+    "amazon": "B073JCFZ61"
+  },
+  "205676": {
+    "artist": "Jackie Mittoo",
+    "title": "Disco Jack",
+    "spotify": null,
+    "amazon": null
+  },
+  "210516": {
+    "artist": "Sly & Robbie",
+    "title": "Boops!",
+    "spotify": null,
+    "amazon": null
+  },
+  "220527": {
+    "artist": "Sly & Robbie",
+    "title": "Rhythm Killers",
+    "spotify": null,
+    "amazon": null
+  },
+  "248718": {
+    "artist": "African Head Charge",
+    "title": "Akwaaba",
+    "spotify": null,
+    "amazon": null
+  },
+  "297409": {
+    "artist": "Isola Posse All Stars",
+    "title": "Passaparola",
+    "spotify": null,
+    "amazon": null
+  },
+  "299024": {
+    "artist": "The Taxi Gang, Sly & Robbie",
+    "title": "The Sting",
+    "spotify": null,
+    "amazon": "B000S54BUC"
+  },
+  "302297": {
+    "artist": "Judge Dread",
+    "title": "Christmas In Dreadland",
+    "spotify": null,
+    "amazon": null
+  },
+  "328303": {
+    "artist": "Bob Marley & The Wailers",
+    "title": "Black Man Redemption",
+    "spotify": null,
+    "amazon": null
+  },
+  "343491": {
+    "artist": "Barrington Levy",
+    "title": "Too Experienced ... The Best Of Barrington Levy",
+    "spotify": null,
+    "amazon": "B075FGRP4J"
+  },
+  "369731": {
+    "artist": "UB40",
+    "title": "Rat In The Kitchen",
+    "spotify": null,
+    "amazon": null
+  },
+  "371006": {
+    "artist": "The Beat",
+    "title": "I Just Can't Stop It",
+    "spotify": null,
+    "amazon": "B0CM71GYBG"
+  },
+  "375758": {
+    "artist": "Sonic Youth",
+    "title": "Experimental Jet Set, Trash And No Star",
+    "spotify": null,
+    "amazon": null
+  },
+  "380434": {
+    "artist": "The Selecter",
+    "title": "Celebrate The Bullet",
+    "spotify": null,
+    "amazon": null
+  },
+  "381545": {
+    "artist": "Sonic Youth",
+    "title": "Bad Moon Rising",
+    "spotify": null,
+    "amazon": null
+  },
+  "383960": {
+    "artist": "Sonic Youth",
+    "title": "EVOL",
+    "spotify": null,
+    "amazon": null
+  },
+  "384117": {
+    "artist": "Madness",
+    "title": "7",
+    "spotify": null,
+    "amazon": null
+  },
+  "386761": {
+    "artist": "Sonic Youth",
+    "title": "Daydream Nation",
+    "spotify": null,
+    "amazon": "B007VCNFDO"
+  },
+  "389856": {
+    "artist": "Madness",
+    "title": "Our House",
+    "spotify": null,
+    "amazon": null
+  },
+  "390573": {
+    "artist": "The Dave Brubeck Quartet",
+    "title": "Time Out",
+    "spotify": null,
+    "amazon": null
+  },
+  "394721": {
+    "artist": "The Sisters Of Mercy",
+    "title": "Some Girls Wander By Mistake",
+    "spotify": null,
+    "amazon": null
+  },
+  "396782": {
+    "artist": "The Breeders",
+    "title": "Divine Hammer",
+    "spotify": null,
+    "amazon": "B073J6VWLV"
+  },
+  "396798": {
+    "artist": "Rage Against The Machine",
+    "title": "Rage Against The Machine",
+    "spotify": null,
+    "amazon": null
+  },
+  "403287": {
+    "artist": "Throwing Muses",
+    "title": "Red Heaven",
+    "spotify": null,
+    "amazon": "B079VT5S6M"
+  },
+  "404890": {
+    "artist": "Madness",
+    "title": "Wings Of A Dove",
+    "spotify": null,
+    "amazon": null
+  },
+  "409856": {
+    "artist": "Pink Floyd",
+    "title": "Atom Heart Mother",
+    "spotify": null,
+    "amazon": "B019HKK7GK"
+  },
+  "417809": {
+    "artist": "Bad Brains",
+    "title": "The Youth Are Getting Restless (Live At The Paradiso, Amsterdam 1987)",
+    "spotify": null,
+    "amazon": null
+  },
+  "418641": {
+    "artist": "Sepultura",
+    "title": "Chaos A.D.",
+    "spotify": null,
+    "amazon": null
+  },
+  "434502": {
+    "artist": "Dag Nasty",
+    "title": "Can I Say",
+    "spotify": null,
+    "amazon": null
+  },
+  "457099": {
+    "artist": "UB40",
+    "title": "Present Arms",
+    "spotify": null,
+    "amazon": null
+  },
+  "468022": {
+    "artist": "Bad Religion, Noam Chomsky",
+    "title": "New World Order: War #1",
+    "spotify": null,
+    "amazon": null
+  },
+  "471006": {
+    "artist": "Embrace",
+    "title": "Embrace",
+    "spotify": null,
+    "amazon": null
+  },
+  "493561": {
+    "artist": "Avail",
+    "title": "Dixie",
+    "spotify": null,
+    "amazon": null
+  },
+  "520872": {
+    "artist": "Ashes",
+    "title": "Hiding Place",
+    "spotify": null,
+    "amazon": null
+  },
+  "549306": {
+    "artist": "Depeche Mode",
+    "title": "Tomorrow's Dance Amsterdam 83",
+    "spotify": null,
+    "amazon": null
+  },
+  "550183": {
+    "artist": "Various",
+    "title": "Magic Reggae",
+    "spotify": null,
+    "amazon": null
+  },
+  "551125": {
+    "artist": "Various",
+    "title": "Skatalites & Friends At Randy's",
+    "spotify": null,
+    "amazon": null
+  },
+  "552230": {
+    "artist": "UB40",
+    "title": "Labour Of Love",
+    "spotify": null,
+    "amazon": "B000TERJSI"
+  },
+  "552556": {
+    "artist": "Admiral Bailey",
+    "title": "Science Again",
+    "spotify": null,
+    "amazon": null
+  },
+  "572026": {
+    "artist": "Gary Numan",
+    "title": "The Collection",
+    "spotify": null,
+    "amazon": null
+  },
+  "575636": {
+    "artist": "Gentleman",
+    "title": "Intoxication",
+    "spotify": null,
+    "amazon": null
+  },
+  "584607": {
+    "artist": "The Last Poets",
+    "title": "This Is Madness",
+    "spotify": null,
+    "amazon": "B0CNRSZG6D"
+  },
+  "587963": {
+    "artist": "Various",
+    "title": "Ba Ba Boom",
+    "spotify": null,
+    "amazon": null
+  },
+  "590806": {
+    "artist": "Vanilla Fudge",
+    "title": "Near The Beginning",
+    "spotify": null,
+    "amazon": "B0GMP3PBWN"
+  },
+  "594574": {
+    "artist": "Various",
+    "title": "Sleng Teng Extravaganza: 1985 Master Mega Hits Volume 2",
+    "spotify": null,
+    "amazon": null
+  },
+  "600578": {
+    "artist": "Madness",
+    "title": "Absolutely",
+    "spotify": null,
+    "amazon": "B007Q0A8G8"
+  },
+  "601156": {
+    "artist": "Gregory Isaacs",
+    "title": "All I Have Is Love, Love, Love",
+    "spotify": null,
+    "amazon": null
+  },
+  "610646": {
+    "artist": "Elephant Man",
+    "title": "The Anthem",
+    "spotify": null,
+    "amazon": null
+  },
+  "616640": {
+    "artist": "Big Youth",
+    "title": "Everyday Skank (Best Of Big Youth)",
+    "spotify": null,
+    "amazon": null
+  },
+  "617939": {
+    "artist": "UB40",
+    "title": "Present Arms",
+    "spotify": null,
+    "amazon": null
+  },
+  "621105": {
+    "artist": "U2",
+    "title": "Achtung Baby",
+    "spotify": null,
+    "amazon": "B073JKBBH2"
+  },
+  "628259": {
+    "artist": "Lady Saw",
+    "title": "Welding Torch",
+    "spotify": null,
+    "amazon": null
+  },
+  "638061": {
+    "artist": "The Special AKA, Ndonda Khuze, Jonas Gwangwa",
+    "title": "Free Nelson Mandela (The Whole World Is Watching Dance Mix)",
+    "spotify": null,
+    "amazon": null
+  },
+  "638370": {
+    "artist": "More Rockers",
+    "title": "Dub Plate Selection Volume One",
+    "spotify": null,
+    "amazon": null
+  },
+  "640256": {
+    "artist": "Mojave 3",
+    "title": "Ask Me Tomorrow",
+    "spotify": null,
+    "amazon": null
+  },
+  "663096": {
+    "artist": "The Clash",
+    "title": "Sandinista!",
+    "spotify": null,
+    "amazon": null
+  },
+  "668709": {
+    "artist": "Greyhound",
+    "title": "I Am What I Am",
+    "spotify": null,
+    "amazon": null
+  },
+  "671269": {
+    "artist": "Ken Boothe",
+    "title": "Everything I Own",
+    "spotify": null,
+    "amazon": null
+  },
+  "672708": {
+    "artist": "The Skatalites, Roland Alphonso",
+    "title": "Doctor Kildare / Lady In Red",
+    "spotify": null,
+    "amazon": null
+  },
+  "675151": {
+    "artist": "Dr. Ring-Ding & The Senior Allstars",
+    "title": "Ram Di Dance",
+    "spotify": null,
+    "amazon": null
+  },
+  "686625": {
+    "artist": "Aswad",
+    "title": "Live And Direct",
+    "spotify": null,
+    "amazon": null
+  },
+  "688953": {
+    "artist": "Tristan Palmer",
+    "title": "Entertainment",
+    "spotify": null,
+    "amazon": null
+  },
+  "689749": {
+    "artist": "Various",
+    "title": "The Front Line",
+    "spotify": null,
+    "amazon": null
+  },
+  "690553": {
+    "artist": "Various",
+    "title": "1985 Master Mega Hits - Sleng Teng Extravaganza",
+    "spotify": null,
+    "amazon": null
+  },
+  "702611": {
+    "artist": "Sonic Youth",
+    "title": "Dirty",
+    "spotify": null,
+    "amazon": null
+  },
+  "717017": {
+    "artist": "Ninjaman",
+    "title": "Anything Test Dead",
+    "spotify": null,
+    "amazon": null
+  },
+  "724243": {
+    "artist": "Lagwagon",
+    "title": "Duh",
+    "spotify": null,
+    "amazon": null
+  },
+  "733156": {
+    "artist": "Dennis Brown",
+    "title": "Money In My Pocket",
+    "spotify": null,
+    "amazon": null
+  },
+  "743253": {
+    "artist": "Aswad",
+    "title": "Distant Thunder",
+    "spotify": null,
+    "amazon": "B073JZ9KR7"
+  },
+  "744770": {
+    "artist": "Hooverphonic",
+    "title": "A New Stereophonic Sound Spectacular",
+    "spotify": null,
+    "amazon": "B01EBCQWFO"
+  },
+  "753487": {
+    "artist": "Bad Manners",
+    "title": "Loonee Tunes!",
+    "spotify": null,
+    "amazon": "B073J31LG3"
+  },
+  "754218": {
+    "artist": "Bob Marley & The Wailers",
+    "title": "Slogans / Stand Up Jamrock",
+    "spotify": null,
+    "amazon": null
+  },
+  "757803": {
+    "artist": "Linton Kwesi Johnson",
+    "title": "Bass Culture",
+    "spotify": null,
+    "amazon": null
+  },
+  "758799": {
+    "artist": "The Style Council",
+    "title": "Home & Abroad. (The Style Council, Live!)",
+    "spotify": null,
+    "amazon": null
+  },
+  "766278": {
+    "artist": "The Specials",
+    "title": "The Specials",
+    "spotify": null,
+    "amazon": "B0B4PVB6KY"
+  },
+  "786494": {
+    "artist": "Mad Cobra, General B, Lexxus",
+    "title": "Wuk Dat / Taxi Cab",
+    "spotify": null,
+    "amazon": null
+  },
+  "793495": {
+    "artist": "Various",
+    "title": "Tighten Up Volume 3",
+    "spotify": null,
+    "amazon": null
+  },
+  "798724": {
+    "artist": "Ciccone Youth",
+    "title": "The Whitey Album",
+    "spotify": null,
+    "amazon": null
+  },
+  "822299": {
+    "artist": "Bob Marley & The Wailers",
+    "title": "Catch A Fire",
+    "spotify": null,
+    "amazon": null
+  },
+  "836787": {
+    "artist": "Dave Barker",
+    "title": "Prisoner Of Love / Shacks Of Mighty",
+    "spotify": null,
+    "amazon": null
+  },
+  "845898": {
+    "artist": "Sepultura",
+    "title": "Roots",
+    "spotify": null,
+    "amazon": null
+  },
+  "848949": {
+    "artist": "UB40",
+    "title": "Signing Off",
+    "spotify": null,
+    "amazon": "B004CYL568"
+  },
+  "852213": {
+    "artist": "Delroy Wilson, The Skatalites",
+    "title": "I Am Not A King / Baskin's Hop",
+    "spotify": null,
+    "amazon": null
+  },
+  "855510": {
+    "artist": "Dennis Brown",
+    "title": "No Man Is An Island",
+    "spotify": null,
+    "amazon": "B016VGBIAM"
+  },
+  "859126": {
+    "artist": "Various",
+    "title": "Toughest",
+    "spotify": null,
+    "amazon": null
+  },
+  "874931": {
+    "artist": "Mark Foggo & The Secret Meeting",
+    "title": "Speeding My Life Away",
+    "spotify": null,
+    "amazon": null
+  },
+  "892226": {
+    "artist": "Eddy Grant",
+    "title": "Romancing The Stone",
+    "spotify": null,
+    "amazon": null
+  },
+  "893001": {
+    "artist": "Tilt",
+    "title": "'Til It Kills",
+    "spotify": null,
+    "amazon": null
+  },
+  "893189": {
+    "artist": "Don Drummond, Clue J. & The Blues Blasters",
+    "title": "Reload / Little Willie",
+    "spotify": null,
+    "amazon": null
+  },
+  "894047": {
+    "artist": "Dillinger",
+    "title": "Cokane In My Brain",
+    "spotify": null,
+    "amazon": null
+  },
+  "916572": {
+    "artist": "Life But How To Live It",
+    "title": "Life But How To Live It?",
+    "spotify": null,
+    "amazon": "B01B3AGNYM"
+  },
+  "942559": {
+    "artist": "Toots & The Maytals",
+    "title": "Life Could Be A Dream",
+    "spotify": null,
+    "amazon": null
+  },
+  "952141": {
+    "artist": "The Gaylads",
+    "title": "River Jordan / Message To My Girl",
+    "spotify": null,
+    "amazon": null
+  },
+  "952605": {
+    "artist": "Tan Tan",
+    "title": "Musical Nostalgia For Today",
+    "spotify": null,
+    "amazon": null
+  },
+  "982903": {
+    "artist": "Inner Circle",
+    "title": "Wrapped Up In Your Love",
+    "spotify": null,
+    "amazon": null
+  },
+  "983631": {
+    "artist": "Future Troubles",
+    "title": "Tales From The Crypt",
+    "spotify": null,
+    "amazon": null
+  },
+  "984664": {
+    "artist": "Aswad",
+    "title": "Don't Turn Around",
+    "spotify": null,
+    "amazon": null
+  },
+  "987921": {
+    "artist": "Derrick Morgan",
+    "title": "Greatest Thing (I'm A Blackhead Again) / Ain't That A Shame",
+    "spotify": null,
+    "amazon": null
+  },
+  "988209": {
+    "artist": "Monty & Roy, Bunnie & Skitter",
+    "title": "Jenny / I Need You",
+    "spotify": null,
+    "amazon": null
+  },
+  "997659": {
+    "artist": "Dillinger",
+    "title": "Cocaine In My Brain",
+    "spotify": null,
+    "amazon": "B00JOTPJV8"
+  },
+  "1003485": {
+    "artist": "Inner Circle",
+    "title": "Ready For The World",
+    "spotify": null,
+    "amazon": null
+  },
+  "1007441": {
+    "artist": "UB40",
+    "title": "Please Don't Make Me Cry",
+    "spotify": null,
+    "amazon": null
+  },
+  "1018570": {
+    "artist": "Sir Lord Comic, The Skatalites, Eric \"Monty\" Morris",
+    "title": "Four Seasons / River Come Down",
+    "spotify": null,
+    "amazon": null
+  },
+  "1036315": {
+    "artist": "New York Ska-Jazz Ensemble",
+    "title": "Low Blow",
+    "spotify": null,
+    "amazon": null
+  },
+  "1045748": {
+    "artist": "UB40",
+    "title": "The Best Of UB40 (Volume One)",
+    "spotify": null,
+    "amazon": null
+  },
+  "1051049": {
+    "artist": "Laboratorija",
+    "title": "Duboko U Tebi",
+    "spotify": null,
+    "amazon": null
+  },
+  "1067289": {
+    "artist": "The Specials",
+    "title": "Ancora Specials",
+    "spotify": null,
+    "amazon": null
+  },
+  "1086674": {
+    "artist": "Bob Marley & The Wailers",
+    "title": "Survival",
+    "spotify": null,
+    "amazon": null
+  },
+  "1095047": {
+    "artist": "Ivan Cattaneo",
+    "title": "Duemila60 Italian Graffiati",
+    "spotify": null,
+    "amazon": null
+  },
+  "1122374": {
+    "artist": "Unity",
+    "title": "Heat Your Body Up (Special Remixed Extended Version)",
+    "spotify": null,
+    "amazon": null
+  },
+  "1125446": {
+    "artist": "Pearl Jam",
+    "title": "Vitalogy",
+    "spotify": null,
+    "amazon": null
+  },
+  "1126037": {
+    "artist": "Maxi Priest",
+    "title": "Maxi",
+    "spotify": null,
+    "amazon": "B073GX83TX"
+  },
+  "1151354": {
+    "artist": "New York Ska-Jazz Ensemble",
+    "title": "Get This!",
+    "spotify": null,
+    "amazon": "B0CK54FF3M"
+  },
+  "1158266": {
+    "artist": "Moss Icon",
+    "title": "Lyburnum Wits End Liberation Fly",
+    "spotify": null,
+    "amazon": null
+  },
+  "1160985": {
+    "artist": "Manu Dibango",
+    "title": "Gone Clear",
+    "spotify": null,
+    "amazon": "B00QZ1O72K"
+  },
+  "1171889": {
+    "artist": "Sugar Minott, Sugar Minott, Sound Dimension",
+    "title": "Oh Mr. DC / DC Part 2",
+    "spotify": null,
+    "amazon": null
+  },
+  "1183369": {
+    "artist": "Love Robot",
+    "title": "Love Robot",
+    "spotify": null,
+    "amazon": null
+  },
+  "1191473": {
+    "artist": "Luciano",
+    "title": "Back To Africa",
+    "spotify": null,
+    "amazon": null
+  },
+  "1201444": {
+    "artist": "Musical Youth",
+    "title": "Different Style",
+    "spotify": null,
+    "amazon": "B0C1RNC9VN"
+  },
+  "1201716": {
+    "artist": "UB40",
+    "title": "Promises And Lies",
+    "spotify": null,
+    "amazon": null
+  },
+  "1218457": {
+    "artist": "Linton Kwesi Johnson",
+    "title": "Forces Of Victory",
+    "spotify": null,
+    "amazon": null
+  },
+  "1220707": {
+    "artist": "Sugarhill Gang",
+    "title": "Sugarhill Gang",
+    "spotify": null,
+    "amazon": "B0012BWZZO"
+  },
+  "1222766": {
+    "artist": "Home T, Yellowman",
+    "title": "Mr. Consular",
+    "spotify": null,
+    "amazon": null
+  },
+  "1237819": {
+    "artist": "Metroschifter",
+    "title": "The Metroschifter Capsule",
+    "spotify": null,
+    "amazon": null
+  },
+  "1237967": {
+    "artist": "Culture Club",
+    "title": "Karma Chameleon",
+    "spotify": null,
+    "amazon": null
+  },
+  "1245877": {
+    "artist": "Merel",
+    "title": "Merel",
+    "spotify": null,
+    "amazon": null
+  },
+  "1256118": {
+    "artist": "The Maytals, Randy's All Stars, Lester Sterling, Randy's All Stars",
+    "title": "Someone's Going To Bawl / Skaramont",
+    "spotify": null,
+    "amazon": null
+  },
+  "1270636": {
+    "artist": "Dread Flimstone And The Modern Tone Age Family",
+    "title": "From The Ghetto",
+    "spotify": null,
+    "amazon": null
+  },
+  "1283277": {
+    "artist": "Janet Kay",
+    "title": "No Easy Walk To Freedom",
+    "spotify": null,
+    "amazon": null
+  },
+  "1291501": {
+    "artist": "John Holt",
+    "title": "Why I Care",
+    "spotify": null,
+    "amazon": null
+  },
+  "1326671": {
+    "artist": "Clock DVA",
+    "title": "Man-Amplified",
+    "spotify": null,
+    "amazon": null
+  },
+  "1327270": {
+    "artist": "Bad Manners",
+    "title": "Walking In The Sunshine",
+    "spotify": null,
+    "amazon": null
+  },
+  "1334464": {
+    "artist": "Ill Inspecta, Bongo Chilli",
+    "title": "Lay Dem To Rest / Warning",
+    "spotify": null,
+    "amazon": null
+  },
+  "1344576": {
+    "artist": "UB40",
+    "title": "The UB40 File",
+    "spotify": null,
+    "amazon": null
+  },
+  "1377943": {
+    "artist": "Third World",
+    "title": "Talk To Me (Disco Mix)",
+    "spotify": null,
+    "amazon": null
+  },
+  "1390091": {
+    "artist": "Inner Circle",
+    "title": "New Age Music",
+    "spotify": null,
+    "amazon": null
+  },
+  "1401583": {
+    "artist": "UB40",
+    "title": "Geffery Morgan...",
+    "spotify": null,
+    "amazon": null
+  },
+  "1414331": {
+    "artist": "Lou & The Hollywood Bananas",
+    "title": "Lou & Hollywood Bananas Meet The Ska All Stars: Greatest Hits",
+    "spotify": null,
+    "amazon": null
+  },
+  "1435862": {
+    "artist": "Mikey Dread",
+    "title": "Pave The Way (Parts 1 & 2)",
+    "spotify": null,
+    "amazon": null
+  },
+  "1448598": {
+    "artist": "Matumbi",
+    "title": "Point Of View",
+    "spotify": null,
+    "amazon": null
+  },
+  "1450437": {
+    "artist": "UB40",
+    "title": "UB44",
+    "spotify": null,
+    "amazon": "B008OPGWAU"
+  },
+  "1472845": {
+    "artist": "Third World",
+    "title": "Journey To Addis",
+    "spotify": null,
+    "amazon": null
+  },
+  "1472854": {
+    "artist": "Third World",
+    "title": "Sense Of Purpose",
+    "spotify": null,
+    "amazon": null
+  },
+  "1474170": {
+    "artist": "Third World",
+    "title": "Hold On To Love",
+    "spotify": null,
+    "amazon": null
+  },
+  "1477077": {
+    "artist": "Junior Kelly",
+    "title": "Ghetto Region",
+    "spotify": null,
+    "amazon": null
+  },
+  "1479203": {
+    "artist": "Various",
+    "title": "Ska Ba Dip  - The Essential King Edwards",
+    "spotify": null,
+    "amazon": null
+  },
+  "1480939": {
+    "artist": "Third World",
+    "title": "All The Way Strong",
+    "spotify": null,
+    "amazon": null
+  },
+  "1483917": {
+    "artist": "Eddy Grant",
+    "title": "Caminando Sobre El Sol = Walking On Sunshine",
+    "spotify": null,
+    "amazon": null
+  },
+  "1500218": {
+    "artist": "The Heptones, Slim Smith",
+    "title": "Why Must I / Try Again",
+    "spotify": null,
+    "amazon": null
+  },
+  "1502876": {
+    "artist": "Bob Marley, The Skatalites",
+    "title": "One Cup Of Coffee / Snow Boy",
+    "spotify": null,
+    "amazon": null
+  },
+  "1506588": {
+    "artist": "The Techniques",
+    "title": "Telling Lies / Don't Leave Me",
+    "spotify": null,
+    "amazon": null
+  },
+  "1508826": {
+    "artist": "Various",
+    "title": "Liquid Riddim",
+    "spotify": null,
+    "amazon": null
+  },
+  "1510440": {
+    "artist": "Bob Marley & The Wailers",
+    "title": "Comin' In From The Cold",
+    "spotify": null,
+    "amazon": null
+  },
+  "1511012": {
+    "artist": "Aswad",
+    "title": "To The Top",
+    "spotify": null,
+    "amazon": null
+  },
+  "1516283": {
+    "artist": "Pato Banton, Ali Campbell, Robin Campbell",
+    "title": "Baby Come Back",
+    "spotify": null,
+    "amazon": null
+  },
+  "1516899": {
+    "artist": "UB40",
+    "title": "All I Want To Do",
+    "spotify": null,
+    "amazon": null
+  },
+  "1530831": {
+    "artist": "Madness",
+    "title": "Keep Moving",
+    "spotify": null,
+    "amazon": "B01K91EGNQ"
+  },
+  "1530991": {
+    "artist": "Cerberus Shoal",
+    "title": "Cerberus Shoal",
+    "spotify": null,
+    "amazon": "B07FDKRBCC"
+  },
+  "1540146": {
+    "artist": "The Pioneers",
+    "title": "The Pioneers Greatest Hits",
+    "spotify": null,
+    "amazon": null
+  },
+  "1540599": {
+    "artist": "Various",
+    "title": "King Edwards Presents Ska-Volution",
+    "spotify": null,
+    "amazon": null
+  },
+  "1545295": {
+    "artist": "Japan",
+    "title": "Tin Drum",
+    "spotify": null,
+    "amazon": null
+  },
+  "1545640": {
+    "artist": "Prince Jazzbo, I-Roy",
+    "title": "Head To Head Clash",
+    "spotify": null,
+    "amazon": null
+  },
+  "1569227": {
+    "artist": "The Skatalites, Higgs & Wilson",
+    "title": "Lunch Time / Gone Is Yesterday",
+    "spotify": null,
+    "amazon": null
+  },
+  "1569305": {
+    "artist": "Roland Alphonso",
+    "title": "King Sax",
+    "spotify": null,
+    "amazon": null
+  },
+  "1579639": {
+    "artist": "Laurel Aitken, Court Jester's Crew",
+    "title": "Jamboree",
+    "spotify": null,
+    "amazon": null
+  },
+  "1590607": {
+    "artist": "Afrika Bambaataa & Family",
+    "title": "The Light",
+    "spotify": null,
+    "amazon": null
+  },
+  "1594953": {
+    "artist": "Bad Manners",
+    "title": "Lorraine",
+    "spotify": null,
+    "amazon": null
+  },
+  "1597439": {
+    "artist": "Judy Mowatt",
+    "title": "Black Woman",
+    "spotify": null,
+    "amazon": "B093KHWH6Y"
+  },
+  "1597773": {
+    "artist": "Aswad",
+    "title": "Rebel Souls",
+    "spotify": null,
+    "amazon": null
+  },
+  "1616977": {
+    "artist": "Pitura Freska, Elio, DJ Master Simpatico",
+    "title": "'Na Bruta Banda",
+    "spotify": null,
+    "amazon": null
+  },
+  "1621823": {
+    "artist": "Lobo",
+    "title": "The Soca Calypso Party",
+    "spotify": null,
+    "amazon": null
+  },
+  "1629633": {
+    "artist": "Jimmy Cliff",
+    "title": "Vietnam",
+    "spotify": null,
+    "amazon": null
+  },
+  "1631301": {
+    "artist": "UB40",
+    "title": "Signing Off",
+    "spotify": null,
+    "amazon": "B004CYL568"
+  },
+  "1631884": {
+    "artist": "UB40",
+    "title": "UB40",
+    "spotify": null,
+    "amazon": null
+  },
+  "1632012": {
+    "artist": "Jimmy Cliff",
+    "title": "The Power And The Glory",
+    "spotify": null,
+    "amazon": null
+  },
+  "1637106": {
+    "artist": "Maxi Priest",
+    "title": "Some Guys Have All The Luck (The UB40 Remix)",
+    "spotify": null,
+    "amazon": null
+  },
+  "1647334": {
+    "artist": "Mr. Vegas, Lexxus, Black-er",
+    "title": "Taxifare / Defend It",
+    "spotify": null,
+    "amazon": null
+  },
+  "1656158": {
+    "artist": "Red Rat, Nesbeth",
+    "title": "Waste Time / Barber Shop",
+    "spotify": null,
+    "amazon": null
+  },
+  "1657577": {
+    "artist": "Bad Manners",
+    "title": "The Height Of Bad Manners",
+    "spotify": null,
+    "amazon": null
+  },
+  "1674582": {
+    "artist": "New Order",
+    "title": "True Faith (Remix)",
+    "spotify": null,
+    "amazon": null
+  },
+  "1686194": {
+    "artist": "Don Carlos",
+    "title": "Groove With Me",
+    "spotify": null,
+    "amazon": null
+  },
+  "1687936": {
+    "artist": "Third World",
+    "title": "Rock The World",
+    "spotify": null,
+    "amazon": null
+  },
+  "1707098": {
+    "artist": "Various",
+    "title": "Music Is My Occupation",
+    "spotify": null,
+    "amazon": null
+  },
+  "1730585": {
+    "artist": "Max Romeo",
+    "title": "Bearded Me Feast / Rasta Band Waggon",
+    "spotify": null,
+    "amazon": null
+  },
+  "1742820": {
+    "artist": "Madness",
+    "title": "The Nutty Boys",
+    "spotify": null,
+    "amazon": null
+  },
+  "1745905": {
+    "artist": "Creepshow",
+    "title": "Creepshow",
+    "spotify": null,
+    "amazon": null
+  },
+  "1746848": {
+    "artist": "Various",
+    "title": "Dance Craze",
+    "spotify": null,
+    "amazon": null
+  },
+  "1771649": {
+    "artist": "Starvation, Tam Tam Pour L'Éthiopie",
+    "title": "Starvation / Tam Tam Pour L'Éthiopie / Haunted",
+    "spotify": null,
+    "amazon": null
+  },
+  "1785602": {
+    "artist": "Barrington Levy",
+    "title": "Money Move",
+    "spotify": null,
+    "amazon": null
+  },
+  "1799608": {
+    "artist": "Depeche Mode",
+    "title": "Black Celebration",
+    "spotify": null,
+    "amazon": "B09B1FTBPY"
+  },
+  "1805613": {
+    "artist": "Desmond Dekker",
+    "title": "Israelites",
+    "spotify": null,
+    "amazon": "B00E4161N6"
+  },
+  "1808197": {
+    "artist": "Jimmy Cliff",
+    "title": "Wonderful World, Beautiful People",
+    "spotify": null,
+    "amazon": null
+  },
+  "1835257": {
+    "artist": "Peter Yellow",
+    "title": "Hot",
+    "spotify": null,
+    "amazon": null
+  },
+  "1837224": {
+    "artist": "Prince Far I",
+    "title": "Cry Freedom Dub",
+    "spotify": null,
+    "amazon": "B00L4RPMG0"
+  },
+  "1849170": {
+    "artist": "Punkreas",
+    "title": "United Rumors Of Punkreas",
+    "spotify": null,
+    "amazon": null
+  },
+  "1852552": {
+    "artist": "Dennis Brown",
+    "title": "Love Has Found Its Way",
+    "spotify": null,
+    "amazon": "B0785V7D2N"
+  },
+  "1868065": {
+    "artist": "The Gaylads",
+    "title": "Just One Kiss",
+    "spotify": null,
+    "amazon": null
+  },
+  "1869929": {
+    "artist": "Judy Mowatt",
+    "title": "Love Is Overdue",
+    "spotify": null,
+    "amazon": null
+  },
+  "1906011": {
+    "artist": "Vybz Kartel",
+    "title": "More Life",
+    "spotify": null,
+    "amazon": null
+  },
+  "1911596": {
+    "artist": "Laid Back",
+    "title": "Play It Straight",
+    "spotify": null,
+    "amazon": "B007RXRU9W"
+  },
+  "1915843": {
+    "artist": "Roland Alphonso, Lord Briscoe",
+    "title": "Jazz Ska / Master Jonah",
+    "spotify": null,
+    "amazon": null
+  },
+  "1916695": {
+    "artist": "Nicky Thomas",
+    "title": "Come Back Girl",
+    "spotify": null,
+    "amazon": null
+  },
+  "1919795": {
+    "artist": "Madness",
+    "title": "The Return Of The Los Palmas 7",
+    "spotify": null,
+    "amazon": null
+  },
+  "1923856": {
+    "artist": "Rico Rodriguez",
+    "title": "Warrika Dub",
+    "spotify": null,
+    "amazon": null
+  },
+  "1947913": {
+    "artist": "Jukka Tolonen",
+    "title": "In A This Year Time",
+    "spotify": null,
+    "amazon": null
+  },
+  "1950229": {
+    "artist": "Carl Orff, Elfride Trötschel, Paul Kuen, Hans Braun, Karl Hoppe, Chor Des Bayerischen Rundfunks, Symphonie-Orchester Des Bayerischen Rundfunks, Eugen Jochum",
+    "title": "Carmina Burana",
+    "spotify": null,
+    "amazon": null
+  },
+  "1956716": {
+    "artist": "Wolfgang Amadeus Mozart, Berliner Philharmoniker, Herbert von Karajan",
+    "title": "Requiem, KV 626",
+    "spotify": null,
+    "amazon": null
+  },
+  "1973539": {
+    "artist": "Various",
+    "title": "Reggae Hits Vol 2",
+    "spotify": null,
+    "amazon": null
+  },
+  "1977886": {
+    "artist": "Judge Dread",
+    "title": "Je T'Aime (Moi Non Plus)",
+    "spotify": null,
+    "amazon": null
+  },
+  "1980523": {
+    "artist": "Pyotr Ilyich Tchaikovsky, Vladimir Ashkenazy, Lorin Maazel, London Symphony Orchestra",
+    "title": "Piano Concerto N° 1",
+    "spotify": null,
+    "amazon": null
+  },
+  "1988657": {
+    "artist": "Antonio Vivaldi, Werner Krotzinger, Stuttgarter Kammerorchester, Karl Münchinger",
+    "title": "The Four Seasons",
+    "spotify": null,
+    "amazon": null
+  },
+  "1994859": {
+    "artist": "Elephant Man",
+    "title": "Eediat Badman",
+    "spotify": null,
+    "amazon": null
+  },
+  "1994863": {
+    "artist": "T.O.K.",
+    "title": "Shake Wha' U Have",
+    "spotify": null,
+    "amazon": null
+  },
+  "2013773": {
+    "artist": "Floodgate",
+    "title": "Troubles A' Brewin",
+    "spotify": null,
+    "amazon": null
+  },
+  "2013835": {
+    "artist": "Fuel",
+    "title": "Monuments To Excess",
+    "spotify": null,
+    "amazon": null
+  },
+  "2021357": {
+    "artist": "Chronicle",
+    "title": "Diamond & Gold",
+    "spotify": null,
+    "amazon": null
+  },
+  "2022381": {
+    "artist": "Ignite",
+    "title": "Past Our Means",
+    "spotify": null,
+    "amazon": null
+  },
+  "2038684": {
+    "artist": "Toots & The Maytals",
+    "title": "Knock Out!",
+    "spotify": null,
+    "amazon": null
+  },
+  "2040217": {
+    "artist": "Bob Marley & The Wailers, The Upsetters",
+    "title": "Soul Shake Down Party / Dollar In The Teeth",
+    "spotify": null,
+    "amazon": null
+  },
+  "2041414": {
+    "artist": "Errol Dunkley",
+    "title": "O.K Fred",
+    "spotify": null,
+    "amazon": null
+  },
+  "2045062": {
+    "artist": "Jimmy Cliff",
+    "title": "Time Will Tell",
+    "spotify": null,
+    "amazon": null
+  },
+  "2045076": {
+    "artist": "Jimmy Cliff",
+    "title": "Hard Road To Travel",
+    "spotify": null,
+    "amazon": null
+  },
+  "2045100": {
+    "artist": "Jimmy Cliff",
+    "title": "Come Into My Life",
+    "spotify": null,
+    "amazon": null
+  },
+  "2045117": {
+    "artist": "Peter Tosh",
+    "title": "Coming In Hot",
+    "spotify": null,
+    "amazon": null
+  },
+  "2048292": {
+    "artist": "Burro Banton",
+    "title": "On Da Lead",
+    "spotify": null,
+    "amazon": null
+  },
+  "2067009": {
+    "artist": "Lorenzo, Ras Mac Bean",
+    "title": "Let It Blaze / Sell Off",
+    "spotify": null,
+    "amazon": null
+  },
+  "2067010": {
+    "artist": "Lutan Fyah, Malijah",
+    "title": "Turbulent Time / Rasta Pickney",
+    "spotify": null,
+    "amazon": null
+  },
+  "2074709": {
+    "artist": "Jah Cure, Jah Penco",
+    "title": "Good Morning Jah Jah / Your Goals",
+    "spotify": null,
+    "amazon": null
+  },
+  "2076248": {
+    "artist": "Billy Joel",
+    "title": "Honesty • My Life",
+    "spotify": null,
+    "amazon": null
+  },
+  "2085826": {
+    "artist": "Various",
+    "title": "From Bam Bam To Cherry Oh Baby",
+    "spotify": null,
+    "amazon": null
+  },
+  "2088083": {
+    "artist": "Pitura Freska",
+    "title": "'Na Bruta Banda",
+    "spotify": null,
+    "amazon": null
+  },
+  "2088502": {
+    "artist": "Nuovi Briganti",
+    "title": "Nuovi Briganti",
+    "spotify": null,
+    "amazon": null
+  },
+  "2088800": {
+    "artist": "Madness",
+    "title": "One Step Beyond...",
+    "spotify": null,
+    "amazon": "B004IJY2FS"
+  },
+  "2093067": {
+    "artist": "Tippa Irie, Turbulence",
+    "title": "Chronic / Rest A Show",
+    "spotify": null,
+    "amazon": null
+  },
+  "2102249": {
+    "artist": "Scotty",
+    "title": "The Best Of Scotty: Draw Your Brakes",
+    "spotify": null,
+    "amazon": null
+  },
+  "2106674": {
+    "artist": "Morgan Heritage",
+    "title": "Down By The River",
+    "spotify": null,
+    "amazon": "B004I13FKE"
+  },
+  "2106845": {
+    "artist": "Jah Mason",
+    "title": "Too Much Youth Dying",
+    "spotify": null,
+    "amazon": null
+  },
+  "2106881": {
+    "artist": "Jack Radics, Elijah Prophet",
+    "title": "Dance With My Baby / Put People First",
+    "spotify": null,
+    "amazon": null
+  },
+  "2107956": {
+    "artist": "Errol Dunkley",
+    "title": "Black Cinderella",
+    "spotify": null,
+    "amazon": null
+  },
+  "2110164": {
+    "artist": "T.O.K., Delly Ranks",
+    "title": "Shining Star / Rfx - I'm In Love / Rfx",
+    "spotify": null,
+    "amazon": null
+  },
+  "2110351": {
+    "artist": "Barrington Levy, Stretch",
+    "title": "She Is Mine",
+    "spotify": null,
+    "amazon": null
+  },
+  "2110360": {
+    "artist": "Ninjaman",
+    "title": "Babylon",
+    "spotify": null,
+    "amazon": null
+  },
+  "2111314": {
+    "artist": "T.O.K.",
+    "title": "She Makes Me Weak",
+    "spotify": null,
+    "amazon": null
+  },
+  "2120760": {
+    "artist": "Josey Wales",
+    "title": "Woola Woop",
+    "spotify": null,
+    "amazon": null
+  },
+  "2120830": {
+    "artist": "Bunny General, Bobby Crystal",
+    "title": "Suzie",
+    "spotify": null,
+    "amazon": null
+  },
+  "2123511": {
+    "artist": "Mighty Soul Rebels",
+    "title": "Soon I'll Be Home / Ah Wanna Know When",
+    "spotify": null,
+    "amazon": null
+  },
+  "2135265": {
+    "artist": "The Special AKA",
+    "title": "In The Studio",
+    "spotify": null,
+    "amazon": null
+  },
+  "2146540": {
+    "artist": "Big Youth",
+    "title": "Hit The Road Jack",
+    "spotify": null,
+    "amazon": "B0029BDV90"
+  },
+  "2146605": {
+    "artist": "Tim Westfood, General Est",
+    "title": "Stop That Train",
+    "spotify": null,
+    "amazon": null
+  },
+  "2146866": {
+    "artist": "John Holt, Dennis Alcapone",
+    "title": "Stick By Me / Jumping Back",
+    "spotify": null,
+    "amazon": null
+  },
+  "2168380": {
+    "artist": "The Skatalites",
+    "title": "Ska Authentic",
+    "spotify": null,
+    "amazon": null
+  },
+  "2177041": {
+    "artist": "Chico, Nicholas Bennett, E.W.",
+    "title": "Chemistry / Frenzy",
+    "spotify": null,
+    "amazon": null
+  },
+  "2177288": {
+    "artist": "Beenie Man, Aidonia",
+    "title": "Back Against Di Wall / Prayer",
+    "spotify": null,
+    "amazon": null
+  },
+  "2178452": {
+    "artist": "Jimmy Cliff",
+    "title": "Reggae Greats",
+    "spotify": null,
+    "amazon": null
+  },
+  "2185021": {
+    "artist": "Byron Lee And The Dragonaires",
+    "title": "Rock-Steady Explosion",
+    "spotify": null,
+    "amazon": null
+  },
+  "2186633": {
+    "artist": "Paul Whiteman & His Concert Orchestra",
+    "title": "In A Program Of George Gershwin Music",
+    "spotify": null,
+    "amazon": null
+  },
+  "2192803": {
+    "artist": "Beenie Man, Leftside & Esco",
+    "title": "Not On My Team / Passa Passa",
+    "spotify": null,
+    "amazon": null
+  },
+  "2192812": {
+    "artist": "Macka Diamond",
+    "title": "Done Already",
+    "spotify": null,
+    "amazon": null
+  },
+  "2192821": {
+    "artist": "Bling Dawg, Voicemail",
+    "title": "She Want The Ood / Exit Sign",
+    "spotify": null,
+    "amazon": null
+  },
+  "2195047": {
+    "artist": "Black Uhuru",
+    "title": "Anthem",
+    "spotify": null,
+    "amazon": null
+  },
+  "2204445": {
+    "artist": "Peter Tosh",
+    "title": "Mystic Man",
+    "spotify": null,
+    "amazon": null
+  },
+  "2204825": {
+    "artist": "Anthony B",
+    "title": "Wake Up",
+    "spotify": null,
+    "amazon": null
+  },
+  "2206169": {
+    "artist": "Ziggy Marley And The Melody Makers",
+    "title": "One Bright Day",
+    "spotify": null,
+    "amazon": null
+  },
+  "2213155": {
+    "artist": "Various",
+    "title": "It's Pounding In!",
+    "spotify": null,
+    "amazon": null
+  },
+  "2217574": {
+    "artist": "Zap Pow",
+    "title": "Zap Pow",
+    "spotify": null,
+    "amazon": null
+  },
+  "2224212": {
+    "artist": "The Busters",
+    "title": "Ruder Than Rude",
+    "spotify": null,
+    "amazon": null
+  },
+  "2249086": {
+    "artist": "Various",
+    "title": "King Tubbys Presents Soundclash Dubplate Style",
+    "spotify": null,
+    "amazon": null
+  },
+  "2256539": {
+    "artist": "Grace Jones, Bernie Lyon",
+    "title": "On Your Knees / Eleanor Rigby",
+    "spotify": null,
+    "amazon": null
+  },
+  "2267430": {
+    "artist": "Inzirli",
+    "title": "Salvadi",
+    "spotify": null,
+    "amazon": null
+  },
+  "2275682": {
+    "artist": "Tanya Stephens, Mr. Vegas",
+    "title": "Toe To Toe / Turn U On",
+    "spotify": null,
+    "amazon": null
+  },
+  "2277237": {
+    "artist": "Crown Of Thorns",
+    "title": "Gnawing On The Bones Of Elvis",
+    "spotify": null,
+    "amazon": null
+  },
+  "2278790": {
+    "artist": "Don Drummond",
+    "title": "Memorial Album",
+    "spotify": null,
+    "amazon": null
+  },
+  "2294413": {
+    "artist": "T.O.K., Monster Twins",
+    "title": "Bruk Out & Rae / Bleeching Fit U",
+    "spotify": null,
+    "amazon": null
+  },
+  "2300257": {
+    "artist": "Musical Youth",
+    "title": "The Youth Of Today",
+    "spotify": null,
+    "amazon": "B0BPKDB4NP"
+  },
+  "2301523": {
+    "artist": "Sizzla, Black Dillinger",
+    "title": "Praise To The Most High / It's Alright",
+    "spotify": null,
+    "amazon": null
+  },
+  "2311994": {
+    "artist": "Peter Tosh",
+    "title": "Glass House",
+    "spotify": null,
+    "amazon": null
+  },
+  "2321803": {
+    "artist": "Bob Marley & The Wailers",
+    "title": "Legend (The Best Of Bob Marley And The Wailers)",
+    "spotify": null,
+    "amazon": null
+  },
+  "2330951": {
+    "artist": "Yellowman",
+    "title": "Sings The Blues",
+    "spotify": null,
+    "amazon": null
+  },
+  "2336821": {
+    "artist": "Max Romeo",
+    "title": "Three Blind Mice",
+    "spotify": null,
+    "amazon": null
+  },
+  "2340981": {
+    "artist": "Derrick Parker, Candy Man",
+    "title": "Ganja Anthem",
+    "spotify": null,
+    "amazon": null
+  },
+  "2341511": {
+    "artist": "Tanya Stephens",
+    "title": "After You",
+    "spotify": null,
+    "amazon": null
+  },
+  "2342505": {
+    "artist": "Josey Wales",
+    "title": "It Have Fi Bun",
+    "spotify": null,
+    "amazon": null
+  },
+  "2342534": {
+    "artist": "Nitty Gritty",
+    "title": "Solomon",
+    "spotify": null,
+    "amazon": null
+  },
+  "2342537": {
+    "artist": "The Specials",
+    "title": "The Best Of The Specials",
+    "spotify": null,
+    "amazon": "B0B3S8P76K"
+  },
+  "2342540": {
+    "artist": "Linval Thompson",
+    "title": "Look How Me Sexy",
+    "spotify": null,
+    "amazon": "B01APT5DJI"
+  },
+  "2348059": {
+    "artist": "Larry Marshall",
+    "title": "Nanny Goat",
+    "spotify": null,
+    "amazon": null
+  },
+  "2355963": {
+    "artist": "The Equators",
+    "title": "Hot",
+    "spotify": null,
+    "amazon": null
+  },
+  "2365758": {
+    "artist": "Sergio Endrigo",
+    "title": "Ci Vuole Un Fiore",
+    "spotify": null,
+    "amazon": null
+  },
+  "2366540": {
+    "artist": "Barrington Levy, Reggie Stepper",
+    "title": "Struggler",
+    "spotify": null,
+    "amazon": null
+  },
+  "2370089": {
+    "artist": "Assalti Frontali",
+    "title": "Terra Di Nessuno",
+    "spotify": null,
+    "amazon": "B08WK42FQQ"
+  },
+  "2374364": {
+    "artist": "UB40",
+    "title": "CCCP Live In Moscow",
+    "spotify": null,
+    "amazon": null
+  },
+  "2378624": {
+    "artist": "Baba Brooks, Winston Wright",
+    "title": "Shank I Sheck / My Girl",
+    "spotify": null,
+    "amazon": null
+  },
+  "2381442": {
+    "artist": "Delroy Wilson",
+    "title": "Conquer Me",
+    "spotify": null,
+    "amazon": "B00J0EFCVO"
+  },
+  "2381465": {
+    "artist": "Dennis Alcapone, The Aggrovators",
+    "title": "Six Million Dollar Man / Channel One Feel It",
+    "spotify": null,
+    "amazon": null
+  },
+  "2383917": {
+    "artist": "Ludwig van Beethoven, Arturo Toscanini, NBC Symphony Orchestra",
+    "title": "Eroica - Sinfonia N. 3 In Mi Bemolle Maggiore Op. 55",
+    "spotify": null,
+    "amazon": null
+  },
+  "2385418": {
+    "artist": "Eric Donaldson",
+    "title": "Eric Donaldson",
+    "spotify": null,
+    "amazon": null
+  },
+  "2400840": {
+    "artist": "Big Youth",
+    "title": "A So We Stay",
+    "spotify": null,
+    "amazon": null
+  },
+  "2400845": {
+    "artist": "Lee Van Cleef",
+    "title": "Look How She Fat",
+    "spotify": null,
+    "amazon": null
+  },
+  "2400859": {
+    "artist": "Marcia Aitken, Glen Washington",
+    "title": "My Man / Rockers \"Nu\" Crackers",
+    "spotify": null,
+    "amazon": null
+  },
+  "2407497": {
+    "artist": "Singing Melody",
+    "title": "How I Want You",
+    "spotify": null,
+    "amazon": null
+  },
+  "2414334": {
+    "artist": "Cocoa Tea",
+    "title": "Can Not Be Real",
+    "spotify": null,
+    "amazon": null
+  },
+  "2420322": {
+    "artist": "Chuckleberry",
+    "title": "Co$t Of Living",
+    "spotify": null,
+    "amazon": null
+  },
+  "2429473": {
+    "artist": "Jah Cure",
+    "title": "The Little That They Give",
+    "spotify": null,
+    "amazon": null
+  },
+  "2432169": {
+    "artist": "Gregory Isaacs, Josey Wales, Sugar Minott",
+    "title": "What A Disaster / After The Storm",
+    "spotify": null,
+    "amazon": null
+  },
+  "2435781": {
+    "artist": "Sizzla, Firehouse Crew",
+    "title": "Righteousness / Dutty Rub Riddim",
+    "spotify": null,
+    "amazon": null
+  },
+  "2446549": {
+    "artist": "Anthony B, Prestige, Little Devon",
+    "title": "Hot Stuff",
+    "spotify": null,
+    "amazon": null
+  },
+  "2451465": {
+    "artist": "G.B.H.",
+    "title": "Church Of The Truly Warped",
+    "spotify": null,
+    "amazon": null
+  },
+  "2453434": {
+    "artist": "Morgan Heritage",
+    "title": "More Teachings...",
+    "spotify": null,
+    "amazon": "B089KLHZ7D"
+  },
+  "2466702": {
+    "artist": "Jahmali",
+    "title": "El Shaddai",
+    "spotify": null,
+    "amazon": "B008OI3AW0"
+  },
+  "2481150": {
+    "artist": "Eversor",
+    "title": "Friends",
+    "spotify": null,
+    "amazon": "B07NNT62H5"
+  },
+  "2489796": {
+    "artist": "Maloney Brown, Major Facts, Candy Man",
+    "title": "Fool Say No God / Let Them Come",
+    "spotify": null,
+    "amazon": null
+  },
+  "2498455": {
+    "artist": "U-Roy",
+    "title": "Natty Rebel",
+    "spotify": null,
+    "amazon": null
+  },
+  "2500120": {
+    "artist": "Lloyd Parks, Dennis Alcapone",
+    "title": "Stars / Stars Version",
+    "spotify": null,
+    "amazon": null
+  },
+  "2500296": {
+    "artist": "Assassin",
+    "title": "Good Over Evil",
+    "spotify": null,
+    "amazon": null
+  },
+  "2502584": {
+    "artist": "Dennis Brown",
+    "title": "Here I Come",
+    "spotify": null,
+    "amazon": null
+  },
+  "2507284": {
+    "artist": "Vanilla Fudge",
+    "title": "Need Love ",
+    "spotify": null,
+    "amazon": null
+  },
+  "2511262": {
+    "artist": "Sex Pistols",
+    "title": "Never Mind The Bollocks Here's The Sex Pistols",
+    "spotify": null,
+    "amazon": "B00122Z5RI"
+  },
+  "2533986": {
+    "artist": "Miranda Martino",
+    "title": "Miranda Martino",
+    "spotify": null,
+    "amazon": null
+  },
+  "2534061": {
+    "artist": "The Maestro's All Steel Band",
+    "title": "The Caribbean Sound",
+    "spotify": null,
+    "amazon": null
+  },
+  "2536027": {
+    "artist": "Mourn",
+    "title": "Ilse",
+    "spotify": null,
+    "amazon": null
+  },
+  "2540583": {
+    "artist": "UB40",
+    "title": "Present Arms In Dub",
+    "spotify": null,
+    "amazon": "B073JVCSYR"
+  },
+  "2574584": {
+    "artist": "Miriamplace",
+    "title": "Get In The Sulky",
+    "spotify": null,
+    "amazon": null
+  },
+  "2598031": {
+    "artist": "Louie Culture",
+    "title": "Safe And Secure",
+    "spotify": null,
+    "amazon": null
+  },
+  "2600236": {
+    "artist": "Tony Matterhorn, Razor",
+    "title": "Sidung Pon It / Mi Mi Mi",
+    "spotify": null,
+    "amazon": null
+  },
+  "2605313": {
+    "artist": "Various",
+    "title": "Happy Reggae",
+    "spotify": null,
+    "amazon": null
+  },
+  "2641509": {
+    "artist": "Ian Dury",
+    "title": "Hit Me",
+    "spotify": null,
+    "amazon": null
+  },
+  "2653788": {
+    "artist": "Chaka Demus & Pliers, Jack Radics, The Taxi Gang",
+    "title": "Twist And Shout",
+    "spotify": null,
+    "amazon": null
+  },
+  "2657440": {
+    "artist": "Little Kirk",
+    "title": "Can It Be Me",
+    "spotify": null,
+    "amazon": null
+  },
+  "2688622": {
+    "artist": "John Holt",
+    "title": "One Thousand Volts Of Holt",
+    "spotify": null,
+    "amazon": null
+  },
+  "2688731": {
+    "artist": "Nicodemus",
+    "title": "Fatha Demus",
+    "spotify": null,
+    "amazon": null
+  },
+  "2688849": {
+    "artist": "Byron Lee And The Dragonaires",
+    "title": "Reggae Hits",
+    "spotify": null,
+    "amazon": null
+  },
+  "2689344": {
+    "artist": "Various",
+    "title": "Reggae Greats - Strictly For Rockers",
+    "spotify": null,
+    "amazon": null
+  },
+  "2696330": {
+    "artist": "Byron Lee And The Dragonaires",
+    "title": "Reggae Fever",
+    "spotify": null,
+    "amazon": null
+  },
+  "2697763": {
+    "artist": "The Wailers Band",
+    "title": "I.D.",
+    "spotify": null,
+    "amazon": null
+  },
+  "2711391": {
+    "artist": "Various",
+    "title": "Greensleeves Sampler 8",
+    "spotify": null,
+    "amazon": null
+  },
+  "2714496": {
+    "artist": "Various",
+    "title": "Party Party (Original Motion Picture Soundtrack)",
+    "spotify": null,
+    "amazon": "B00XO3883G"
+  },
+  "2717767": {
+    "artist": "Norrisman",
+    "title": "Jah Is The Ruler",
+    "spotify": null,
+    "amazon": null
+  },
+  "2718750": {
+    "artist": "Red Rat",
+    "title": "Di Judgement",
+    "spotify": null,
+    "amazon": null
+  },
+  "2718864": {
+    "artist": "Luciano",
+    "title": "Love And Devotion",
+    "spotify": null,
+    "amazon": null
+  },
+  "2718869": {
+    "artist": "Sizzla",
+    "title": "Can't Keep Us Down",
+    "spotify": null,
+    "amazon": null
+  },
+  "2725648": {
+    "artist": "Ziggy Marley And The Melody Makers",
+    "title": "Time Has Come... - The Best Of Ziggy Marley And The Melody Makers",
+    "spotify": null,
+    "amazon": null
+  },
+  "2727106": {
+    "artist": "The Tigers",
+    "title": "Savage Music",
+    "spotify": null,
+    "amazon": "B07JMX7T79"
+  },
+  "2727351": {
+    "artist": "The Fendermen",
+    "title": "Mule Skinner Blues = Il Blues Del Mandriano",
+    "spotify": null,
+    "amazon": null
+  },
+  "2735974": {
+    "artist": "Buju Banton",
+    "title": "Sound Killa",
+    "spotify": null,
+    "amazon": null
+  },
+  "2735975": {
+    "artist": "Capleton",
+    "title": "Grippi Grippi",
+    "spotify": null,
+    "amazon": null
+  },
+  "2783651": {
+    "artist": "Dennis Brown",
+    "title": "Equal Rights",
+    "spotify": null,
+    "amazon": null
+  },
+  "2784160": {
+    "artist": "Dennis Brown",
+    "title": "Ain't That Loving You",
+    "spotify": null,
+    "amazon": null
+  },
+  "2796596": {
+    "artist": "Sean Paul",
+    "title": "Give Me A Try",
+    "spotify": null,
+    "amazon": null
+  },
+  "2807733": {
+    "artist": "Mau Mau",
+    "title": "Sauta Rabel",
+    "spotify": null,
+    "amazon": null
+  },
+  "2807955": {
+    "artist": "Ziggy Marley",
+    "title": "True To Myself / The Song",
+    "spotify": null,
+    "amazon": null
+  },
+  "2810147": {
+    "artist": "Lennie Hibbert",
+    "title": "More Creation",
+    "spotify": null,
+    "amazon": null
+  },
+  "2815943": {
+    "artist": "Pinchers",
+    "title": "Kingston Jamaica",
+    "spotify": null,
+    "amazon": null
+  },
+  "2828380": {
+    "artist": "Giacomo Lauri-Volpi",
+    "title": "Recital",
+    "spotify": null,
+    "amazon": null
+  },
+  "2833866": {
+    "artist": "Bauhaus",
+    "title": "Burning From The Inside",
+    "spotify": null,
+    "amazon": "B07N4FDDWR"
+  },
+  "2856868": {
+    "artist": "Cocoa Tea",
+    "title": "War And Crime",
+    "spotify": null,
+    "amazon": null
+  },
+  "2857161": {
+    "artist": "Nikolai Rimsky-Korsakov, Ernest Ansermet, Orchestre De La Société Des Concerts Du Conservatoire",
+    "title": "Scheherazade",
+    "spotify": null,
+    "amazon": null
+  },
+  "2866265": {
+    "artist": "Wayne Marshall",
+    "title": "Ganja",
+    "spotify": null,
+    "amazon": null
+  },
+  "2873687": {
+    "artist": "Jackie Mittoo, The Soul Vendors",
+    "title": "Evening Time",
+    "spotify": null,
+    "amazon": null
+  },
+  "2878039": {
+    "artist": "Sizzla",
+    "title": "Solution",
+    "spotify": null,
+    "amazon": null
+  },
+  "2886172": {
+    "artist": "Roland Alphonso, Higgs & Wilson",
+    "title": "Shuffle Duck / Love Not For Me",
+    "spotify": null,
+    "amazon": null
+  },
+  "2895919": {
+    "artist": "Bob Marley & The Wailers",
+    "title": "Burnin'",
+    "spotify": null,
+    "amazon": null
+  },
+  "2898087": {
+    "artist": "Sizzla",
+    "title": "Peace",
+    "spotify": null,
+    "amazon": null
+  },
+  "2914617": {
+    "artist": "The Soul Brothers",
+    "title": "Carib Soul",
+    "spotify": null,
+    "amazon": null
+  },
+  "2915492": {
+    "artist": "Laid Back, Federico, Marrakech Orchestra",
+    "title": "Sunshine Reggae / Cashbah Boogie",
+    "spotify": null,
+    "amazon": null
+  },
+  "2930749": {
+    "artist": "Baba Brooks, The Angelic Brothers",
+    "title": "Five O'Clock Whistle / Ten Virgins",
+    "spotify": null,
+    "amazon": null
+  },
+  "2931400": {
+    "artist": "The Toasters",
+    "title": "Recriminations",
+    "spotify": null,
+    "amazon": null
+  },
+  "2934879": {
+    "artist": "Frankie Paul",
+    "title": "Ripe Mango",
+    "spotify": null,
+    "amazon": null
+  },
+  "2935263": {
+    "artist": "B.B. Seaton, The Gaylads",
+    "title": "Tell The Children The Truth / Something Is Wrong Somewhere",
+    "spotify": null,
+    "amazon": null
+  },
+  "2937517": {
+    "artist": "Echo Minott",
+    "title": "Love Problems",
+    "spotify": null,
+    "amazon": null
+  },
+  "2939089": {
+    "artist": "Jah Woosh",
+    "title": "Jah Jah Dey Dey",
+    "spotify": null,
+    "amazon": null
+  },
+  "2956232": {
+    "artist": "Nicky Thomas",
+    "title": "London / What Love Is",
+    "spotify": null,
+    "amazon": null
+  },
+  "2959074": {
+    "artist": "Byron Lee And The Dragonaires",
+    "title": "The Many Moods Of Lee Volume 2",
+    "spotify": null,
+    "amazon": null
+  },
+  "2962827": {
+    "artist": "Third World",
+    "title": "Prisoner In The Street (Original Soundtrack From The Film)",
+    "spotify": null,
+    "amazon": null
+  },
+  "2976649": {
+    "artist": "Casino Royale",
+    "title": "Dainamaita",
+    "spotify": null,
+    "amazon": "B0CTNZXXG6"
+  },
+  "2976718": {
+    "artist": "Casino Royale",
+    "title": "Rien Ne Va Plus",
+    "spotify": null,
+    "amazon": null
+  },
+  "3013727": {
+    "artist": "Ludwig van Beethoven, Emil Gilels, The Cleveland Orchestra, George Szell",
+    "title": "Concerto No.3 For Piano And Orchestra In C Minor, Op. 37",
+    "spotify": null,
+    "amazon": null
+  },
+  "3020428": {
+    "artist": "Sophia George",
+    "title": "Girlie Girlie",
+    "spotify": null,
+    "amazon": null
+  },
+  "3053396": {
+    "artist": "Various",
+    "title": "Balla E Difendi Vol.2",
+    "spotify": null,
+    "amazon": null
+  },
+  "3064980": {
+    "artist": "Various",
+    "title": "Capsule Records Compilation",
+    "spotify": null,
+    "amazon": null
+  },
+  "3071108": {
+    "artist": "Yello",
+    "title": "I Love You",
+    "spotify": null,
+    "amazon": null
+  },
+  "3072320": {
+    "artist": "The Heptones",
+    "title": "On Top",
+    "spotify": null,
+    "amazon": "B016VGB8DO"
+  },
+  "3079597": {
+    "artist": "Various",
+    "title": "The Best Of Reggae",
+    "spotify": null,
+    "amazon": null
+  },
+  "3099028": {
+    "artist": "The Heptones",
+    "title": "Night Food",
+    "spotify": null,
+    "amazon": "B0037BF5H2"
+  },
+  "3129617": {
+    "artist": "Skankin' Pickle",
+    "title": "The Green Album",
+    "spotify": null,
+    "amazon": null
+  },
+  "3133854": {
+    "artist": "Cause For Alarm",
+    "title": "Cheaters And The Cheated",
+    "spotify": null,
+    "amazon": null
+  },
+  "3134384": {
+    "artist": "John Holt",
+    "title": "3000 Volts Of Holt",
+    "spotify": null,
+    "amazon": null
+  },
+  "3145472": {
+    "artist": "By All Means",
+    "title": "Blind Side",
+    "spotify": null,
+    "amazon": null
+  },
+  "3184838": {
+    "artist": "Bob Marley & The Wailers, Peter Tosh",
+    "title": "The Birth Of A Legend",
+    "spotify": null,
+    "amazon": null
+  },
+  "3196040": {
+    "artist": "Don Drummond",
+    "title": "The Best Of Don Drummond",
+    "spotify": null,
+    "amazon": null
+  },
+  "3265981": {
+    "artist": "Bling Dawg, Notch, Robyn, Lady Saw",
+    "title": "Gal Factory / One Night Stand",
+    "spotify": null,
+    "amazon": null
+  },
+  "3267182": {
+    "artist": "Colin Roach",
+    "title": "Champion Sound",
+    "spotify": null,
+    "amazon": null
+  },
+  "3277448": {
+    "artist": "Johnny Nash",
+    "title": "My Merry-Go-Round ",
+    "spotify": null,
+    "amazon": null
+  },
+  "3281577": {
+    "artist": "Sly & Robbie",
+    "title": "The Summit",
+    "spotify": null,
+    "amazon": null
+  },
+  "3284340": {
+    "artist": "Phil Trim",
+    "title": "The Game Of Love",
+    "spotify": null,
+    "amazon": null
+  },
+  "3288157": {
+    "artist": "Third World",
+    "title": "You've Got The Power",
+    "spotify": null,
+    "amazon": null
+  },
+  "3298186": {
+    "artist": "Owen Gray",
+    "title": "Hit After Hit After Hit",
+    "spotify": null,
+    "amazon": null
+  },
+  "3299624": {
+    "artist": "Ludwig van Beethoven, Erich Kleiber, Wiener Philharmoniker, Sieglinde Wagner, Hilde Güden, Anton Dermota",
+    "title": "Symphony No. 9 In D Minor, Op. 125 (\"Choral\")",
+    "spotify": null,
+    "amazon": null
+  },
+  "3336626": {
+    "artist": "Orange Street",
+    "title": "Letter To Mr Brown / What A Night Version",
+    "spotify": null,
+    "amazon": null
+  },
+  "3367543": {
+    "artist": "UB40",
+    "title": "The Best Of UB40 - Volume Two",
+    "spotify": null,
+    "amazon": null
+  },
+  "3367831": {
+    "artist": "Jimmy Cliff",
+    "title": "Wild World / Goodbye Yesterday",
+    "spotify": null,
+    "amazon": null
+  },
+  "3375821": {
+    "artist": "Pressure",
+    "title": "Hear My Cry",
+    "spotify": null,
+    "amazon": null
+  },
+  "3382471": {
+    "artist": "The Cimarons",
+    "title": "Maka",
+    "spotify": null,
+    "amazon": null
+  },
+  "3399721": {
+    "artist": "Laura Lee, Tony Steven",
+    "title": "My Boy Lollipop / It's Over",
+    "spotify": null,
+    "amazon": null
+  },
+  "3404924": {
+    "artist": "Ray I",
+    "title": "Winey Tiny",
+    "spotify": null,
+    "amazon": null
+  },
+  "3408340": {
+    "artist": "Jimmy Cliff",
+    "title": "Unlimited",
+    "spotify": null,
+    "amazon": null
+  },
+  "3411042": {
+    "artist": "Bob Marley & The Wailers",
+    "title": "Blackman Redemption",
+    "spotify": null,
+    "amazon": null
+  },
+  "3413670": {
+    "artist": "Sonic Youth",
+    "title": "Sister",
+    "spotify": null,
+    "amazon": null
+  },
+  "3414998": {
+    "artist": "Half Pint, Anthony B",
+    "title": "Two To One",
+    "spotify": null,
+    "amazon": null
+  },
+  "3445997": {
+    "artist": "Derrick Harriott",
+    "title": "14 Chartbuster Hits",
+    "spotify": null,
+    "amazon": "B00C7YRVRC"
+  },
+  "3448562": {
+    "artist": "Andrew Tosh",
+    "title": "Original Man",
+    "spotify": null,
+    "amazon": null
+  },
+  "3449428": {
+    "artist": "Barrington Levy",
+    "title": "Shine Eye Gal",
+    "spotify": null,
+    "amazon": null
+  },
+  "3472618": {
+    "artist": "Erup, Noah",
+    "title": "Roll Out / Dem Badmind",
+    "spotify": null,
+    "amazon": null
+  },
+  "3472699": {
+    "artist": "Future Fambo, Tony Curtis, Jah Vinci",
+    "title": "Celebrate / Hype On Me",
+    "spotify": null,
+    "amazon": null
+  },
+  "3472707": {
+    "artist": "Beenie Man, Sizzla",
+    "title": "Gimmi Everyday",
+    "spotify": null,
+    "amazon": null
+  },
+  "3493790": {
+    "artist": "Munga",
+    "title": "Fi Free",
+    "spotify": null,
+    "amazon": null
+  },
+  "3497446": {
+    "artist": "Toots & The Maytals",
+    "title": "Reggae Greats",
+    "spotify": null,
+    "amazon": null
+  },
+  "3504291": {
+    "artist": "Sizzla",
+    "title": "Renegade",
+    "spotify": null,
+    "amazon": null
+  },
+  "3504489": {
+    "artist": "Max Romeo",
+    "title": "Evening News",
+    "spotify": null,
+    "amazon": null
+  },
+  "3526233": {
+    "artist": "UB40",
+    "title": "Labour Of Love II",
+    "spotify": null,
+    "amazon": null
+  },
+  "3536634": {
+    "artist": "Admiral Bailey",
+    "title": "Jump Up",
+    "spotify": null,
+    "amazon": null
+  },
+  "3536897": {
+    "artist": "UB40",
+    "title": "I Got You Babe",
+    "spotify": null,
+    "amazon": null
+  },
+  "3562854": {
+    "artist": "Elephant Man",
+    "title": "Liberty",
+    "spotify": null,
+    "amazon": null
+  },
+  "3583483": {
+    "artist": "UB40",
+    "title": "Guns In The Ghetto",
+    "spotify": null,
+    "amazon": null
+  },
+  "3596714": {
+    "artist": "Jah Woosh, I-Roy",
+    "title": "We Chat You Rock (DJ Clash)",
+    "spotify": null,
+    "amazon": null
+  },
+  "3596753": {
+    "artist": "André Kostelanetz And His Orchestra",
+    "title": "Scarborough Fair And Other Great Movie Hits",
+    "spotify": null,
+    "amazon": "B07JGHX5DF"
+  },
+  "3658921": {
+    "artist": "Various",
+    "title": "Hits & Soul 6",
+    "spotify": null,
+    "amazon": null
+  },
+  "3670224": {
+    "artist": "Johann Sebastian Bach, Anton Nowakowski",
+    "title": "Toccata Und Fuge D-Moll, BWV 565 • Präludium Und Fuge C-Dur BWV 545 • Präludium Und Fuge H-Moll BWV 544",
+    "spotify": null,
+    "amazon": null
+  },
+  "3671704": {
+    "artist": "Bob Marley & The Wailers",
+    "title": "The Best Of Bob Marley & The Wailers",
+    "spotify": null,
+    "amazon": "B07FPZVHDW"
+  },
+  "3673458": {
+    "artist": "The Starlites",
+    "title": "Soldering",
+    "spotify": null,
+    "amazon": null
+  },
+  "3687121": {
+    "artist": "Gregory Peck",
+    "title": "Pocoman Jam",
+    "spotify": null,
+    "amazon": null
+  },
+  "3691837": {
+    "artist": "Georg Friedrich Händel, Jeanne Demessieux, L'Orchestre De La Suisse Romande, Ernest Ansermet",
+    "title": "Organ Concertos Op. 4 Nos. 1 & 2",
+    "spotify": null,
+    "amazon": null
+  },
+  "3696467": {
+    "artist": "The Pogues",
+    "title": "Peace And Love",
+    "spotify": null,
+    "amazon": null
+  },
+  "3726344": {
+    "artist": "Risto Benji",
+    "title": "Carbon Copy",
+    "spotify": null,
+    "amazon": null
+  },
+  "3731955": {
+    "artist": "Bamboos Of Jamaica",
+    "title": "Reggae Time",
+    "spotify": null,
+    "amazon": null
+  },
+  "3740419": {
+    "artist": "The Rising Sun (Treasure Cove) Steel Band",
+    "title": "Sand & Steel",
+    "spotify": null,
+    "amazon": null
+  },
+  "3753216": {
+    "artist": "Chuck Fender",
+    "title": "Jah Nah Sleep",
+    "spotify": null,
+    "amazon": null
+  },
+  "3753240": {
+    "artist": "Vybz Kartel",
+    "title": "How We Ride",
+    "spotify": null,
+    "amazon": null
+  },
+  "3763661": {
+    "artist": "U-Roy, Winston Wright, Tommy McCook & The Supersonics, U-Roy, Tommy McCook & The Supersonics",
+    "title": "Wake The Town / Big Boy & Teacher",
+    "spotify": null,
+    "amazon": null
+  },
+  "3789730": {
+    "artist": "A.R.P.",
+    "title": "The Lion Sleep Tonight",
+    "spotify": null,
+    "amazon": null
+  },
+  "3801412": {
+    "artist": "Bob Marley & The Wailers",
+    "title": "Reggae On Broadway",
+    "spotify": null,
+    "amazon": null
+  },
+  "3824516": {
+    "artist": "Tapper Zukie",
+    "title": "Rastaman Camp",
+    "spotify": null,
+    "amazon": null
+  },
+  "3825370": {
+    "artist": "Roy Shirley",
+    "title": "One, Two, Three / Plus One",
+    "spotify": null,
+    "amazon": null
+  },
+  "3837593": {
+    "artist": "Warrior King",
+    "title": "Breath Of Fresh Air",
+    "spotify": null,
+    "amazon": null
+  },
+  "3846997": {
+    "artist": "Roland Alphonso, Lester Sterling, The Skatalites, The Tonetts",
+    "title": "Lee Oswald / Every Time",
+    "spotify": null,
+    "amazon": null
+  },
+  "3883046": {
+    "artist": "David Isaacs, Ossie Hibbert, We The People Band",
+    "title": "I Went To Your Wedding / Version Of Old",
+    "spotify": null,
+    "amazon": null
+  },
+  "3905630": {
+    "artist": "Ken Boothe",
+    "title": "My Reward",
+    "spotify": null,
+    "amazon": null
+  },
+  "3906004": {
+    "artist": "Desmond Dekker",
+    "title": "It Mek",
+    "spotify": null,
+    "amazon": null
+  },
+  "3914667": {
+    "artist": "Gregory Isaacs, Delroy Wilson",
+    "title": "Private Beach Party / Dancing Mood",
+    "spotify": null,
+    "amazon": null
+  },
+  "3914688": {
+    "artist": "Leroy Smart",
+    "title": "Jah Jah",
+    "spotify": null,
+    "amazon": null
+  },
+  "3951414": {
+    "artist": "Dennis Brown, The Aggrovators",
+    "title": "Joy In The Morning / Joy In The Morning (Version)",
+    "spotify": null,
+    "amazon": null
+  },
+  "3958481": {
+    "artist": "Chuck Fender",
+    "title": "Murder",
+    "spotify": null,
+    "amazon": null
+  },
+  "3962160": {
+    "artist": "Elvis Presley",
+    "title": "One Night / I Got Stung",
+    "spotify": null,
+    "amazon": null
+  },
+  "3967953": {
+    "artist": "Ska Dynamics",
+    "title": "Cow Town Ska",
+    "spotify": null,
+    "amazon": null
+  },
+  "3968182": {
+    "artist": "Anthony B, Xsytement",
+    "title": "Try Hard / Smoke Off",
+    "spotify": null,
+    "amazon": null
+  },
+  "3983647": {
+    "artist": "Various",
+    "title": "Rhythm Of The Sun",
+    "spotify": null,
+    "amazon": null
+  },
+  "4022201": {
+    "artist": "Max Romeo, The Emotions",
+    "title": "I'll Buy You A Rainbow / I Don't Want To Lose Your Love",
+    "spotify": null,
+    "amazon": null
+  },
+  "4025670": {
+    "artist": "Ludwig van Beethoven, Alfred Brendel, Vienna Pro Musica Orchestra, Zubin Mehta",
+    "title": "Concerto N. 5 \"Imperatore\"",
+    "spotify": null,
+    "amazon": null
+  },
+  "4028225": {
+    "artist": "Assassin",
+    "title": "God Nah Sleep",
+    "spotify": null,
+    "amazon": null
+  },
+  "4059451": {
+    "artist": "Wolfgang Amadeus Mozart, I Musici",
+    "title": "Sinfonien KV 81, KV 75, KV 112, KV 128",
+    "spotify": null,
+    "amazon": null
+  },
+  "4066496": {
+    "artist": "Junior Reid",
+    "title": "Millenium",
+    "spotify": null,
+    "amazon": null
+  },
+  "4067424": {
+    "artist": "Anthony B",
+    "title": "Wave Of The Croses",
+    "spotify": null,
+    "amazon": null
+  },
+  "4080319": {
+    "artist": "U-Roy",
+    "title": "Dread In A Babylon",
+    "spotify": null,
+    "amazon": "B008OPDLF4"
+  },
+  "4081476": {
+    "artist": "Floyd Lloyd",
+    "title": "Mango Blues",
+    "spotify": null,
+    "amazon": null
+  },
+  "4082171": {
+    "artist": "Jah Macetas",
+    "title": "Toda Una Vida...",
+    "spotify": null,
+    "amazon": null
+  },
+  "4088666": {
+    "artist": "Black Uhuru",
+    "title": "Sinsemilla",
+    "spotify": null,
+    "amazon": null
+  },
+  "4098734": {
+    "artist": "The Police",
+    "title": "Reggatta De Blanc",
+    "spotify": null,
+    "amazon": null
+  },
+  "4100272": {
+    "artist": "Ingrid Haebler, Wolfgang Amadeus Mozart, Michel Schwalbé, Giusto Cappone, Ottomar Borwitzky",
+    "title": "Klavierquartette KV 478, KV 493",
+    "spotify": null,
+    "amazon": null
+  },
+  "4141399": {
+    "artist": "Ludwig van Beethoven, Aaron Rosand, Eileen Flissler",
+    "title": "Sonate Per Violino E Pianoforte Op. 24 \"La Primavera\" - Op. 47 \"A Kreutzer\"",
+    "spotify": null,
+    "amazon": null
+  },
+  "4150847": {
+    "artist": "The Smiths",
+    "title": "The World Won't Listen",
+    "spotify": null,
+    "amazon": null
+  },
+  "4153992": {
+    "artist": "Little John",
+    "title": "Tea Tar Toe",
+    "spotify": null,
+    "amazon": null
+  },
+  "4183674": {
+    "artist": "Roy And Yvonne",
+    "title": "Studio Recordings From 1961-1970",
+    "spotify": null,
+    "amazon": null
+  },
+  "4262409": {
+    "artist": "Various",
+    "title": "Souvenir Di Napoli (20 Fra Le Più Belle Canzoni Napoletane)",
+    "spotify": null,
+    "amazon": null
+  },
+  "4314845": {
+    "artist": "Various",
+    "title": "This Is Reggae Music",
+    "spotify": null,
+    "amazon": null
+  },
+  "4314875": {
+    "artist": "Various",
+    "title": "20 Reggae Blockbusters",
+    "spotify": null,
+    "amazon": null
+  },
+  "4314887": {
+    "artist": "99 Posse",
+    "title": "Cerco Tiempo",
+    "spotify": null,
+    "amazon": null
+  },
+  "4315638": {
+    "artist": "Alton Ellis, King Stitt",
+    "title": "Hurting Me / Skank Corner",
+    "spotify": null,
+    "amazon": null
+  },
+  "4380250": {
+    "artist": "Etana, Lutan Fyah",
+    "title": "Gun",
+    "spotify": null,
+    "amazon": null
+  },
+  "4406611": {
+    "artist": "The Upsetters",
+    "title": "Three Blind Mice",
+    "spotify": null,
+    "amazon": null
+  },
+  "4425951": {
+    "artist": "Assassin, Vybz Kartel",
+    "title": "Idiot Sound / Punauny Medley",
+    "spotify": null,
+    "amazon": null
+  },
+  "4451675": {
+    "artist": "Bob Marley & The Wailers",
+    "title": "Positive Vibration",
+    "spotify": null,
+    "amazon": null
+  },
+  "4456516": {
+    "artist": "Flourgon, Jan Burger",
+    "title": "Ganjah / Tribute To J. Coltrane",
+    "spotify": null,
+    "amazon": null
+  },
+  "4597229": {
+    "artist": "Stranger Cole, The Baba Brooks Band, Roland Alphonso, The Baba Brooks Band",
+    "title": "Love Your Neighbour / Nuclear Weapon",
+    "spotify": null,
+    "amazon": null
+  },
+  "4661208": {
+    "artist": "The Astronauts",
+    "title": "Born Jamaican",
+    "spotify": null,
+    "amazon": null
+  },
+  "4661756": {
+    "artist": "Jackie Bernard, The Kingstonians",
+    "title": "Never Changing Harmony",
+    "spotify": null,
+    "amazon": null
+  },
+  "4726026": {
+    "artist": "Sergei Prokofiev, Mikhail Ivanovich Glinka, Alexander Borodin, Modest Mussorgsky",
+    "title": "Classical Symphony/Russlan And Ludmila/In The Steppes Of Central Asia/Night On The Bare Mountain",
+    "spotify": null,
+    "amazon": null
+  },
+  "4740240": {
+    "artist": "Nathan Milstein, Philharmonia Orchestra, Leon Barzin",
+    "title": "Nathan Milstein Spielt Das Violinkonzert E-Moll Op. 64 Von Mendelssohn-Bartholdy Und Das Violinkonzert Nr. I G-Moll Op. 26 Von Bruch",
+    "spotify": null,
+    "amazon": null
+  },
+  "4741126": {
+    "artist": "The Rolling Stones",
+    "title": "Let's Spend The Night Together",
+    "spotify": null,
+    "amazon": null
+  },
+  "4748087": {
+    "artist": "Joyce Bond, The Joyce Bond Review",
+    "title": "Ob-La-Di Ob-La-Da / Robin Hood Rides Again",
+    "spotify": null,
+    "amazon": null
+  },
+  "4774408": {
+    "artist": "Lone Ranger",
+    "title": "Learn To Drive",
+    "spotify": null,
+    "amazon": null
+  },
+  "4777261": {
+    "artist": "Ludwig van Beethoven, Süddeutsche Philharmonie, Hans Swarowsky, Nürnberger Symphoniker, Zsolt Deaky",
+    "title": "Sinfonia N.5 Op.67 / Coriolano, Ouverture Op.62",
+    "spotify": null,
+    "amazon": null
+  },
+  "4809771": {
+    "artist": "Bob Marley & The Wailers",
+    "title": "One Drop",
+    "spotify": null,
+    "amazon": null
+  },
+  "4816388": {
+    "artist": "The Beat",
+    "title": "Wha'ppen?",
+    "spotify": null,
+    "amazon": "B0CM6Z5L3Q"
+  },
+  "4870939": {
+    "artist": "Joaquín Rodrigo, Mauro Giuliani, Alirio Díaz, Orquesta Nacional De España, Rafael Frühbeck De Burgos",
+    "title": "Concerto Di Aranjuez / Concerto In La Per Chitarra E Archi, Op.30",
+    "spotify": null,
+    "amazon": null
+  },
+  "4871271": {
+    "artist": "Elvis Presley",
+    "title": "Are You Lonesome To-Night? / I Gotta Know",
+    "spotify": null,
+    "amazon": null
+  },
+  "4905605": {
+    "artist": "Frankie Paul",
+    "title": "I Want To Rock",
+    "spotify": null,
+    "amazon": null
+  },
+  "4920412": {
+    "artist": "Jimmy Cliff",
+    "title": "The Harder They Come / Many Rivers To Cross",
+    "spotify": null,
+    "amazon": null
+  },
+  "4920468": {
+    "artist": "Bob Marley & The Wailers",
+    "title": "Bad Card",
+    "spotify": null,
+    "amazon": null
+  },
+  "4922498": {
+    "artist": "Owen Gray",
+    "title": "Hit After Hit After Hit - Vol. 2",
+    "spotify": null,
+    "amazon": null
+  },
+  "4978325": {
+    "artist": "The Beltones",
+    "title": "No More Heartaches",
+    "spotify": null,
+    "amazon": null
+  },
+  "4985507": {
+    "artist": "Pyotr Ilyich Tchaikovsky, Georg Solti, Orchestre De La Société Des Concerts Du Conservatoire",
+    "title": "Fifth Symphony",
+    "spotify": null,
+    "amazon": null
+  },
+  "4986491": {
+    "artist": "Alberto Radius",
+    "title": "Celebrai / Nel Ghetto",
+    "spotify": null,
+    "amazon": null
+  },
+  "5016626": {
+    "artist": "Bob Marley & The Wailers",
+    "title": "Talkin' Blues",
+    "spotify": null,
+    "amazon": null
+  },
+  "5044687": {
+    "artist": "Derrick Morgan",
+    "title": "Blazin Fire",
+    "spotify": null,
+    "amazon": null
+  },
+  "5089561": {
+    "artist": "Max Romeo, Jah Lion",
+    "title": "Fire Fe The Vatican / Leggo",
+    "spotify": null,
+    "amazon": null
+  },
+  "5089575": {
+    "artist": "Max Romeo",
+    "title": "War In A Babylon",
+    "spotify": null,
+    "amazon": null
+  },
+  "5090156": {
+    "artist": "Dennis Brown",
+    "title": "I Can't Stand It",
+    "spotify": null,
+    "amazon": null
+  },
+  "5090721": {
+    "artist": "Barrington Levy",
+    "title": "21 Girls Salute",
+    "spotify": null,
+    "amazon": null
+  },
+  "5101033": {
+    "artist": "The Pioneers",
+    "title": "Let Your Yeah Be Yeah",
+    "spotify": null,
+    "amazon": null
+  },
+  "5161101": {
+    "artist": "Cocoa Tea",
+    "title": "Tune In",
+    "spotify": null,
+    "amazon": null
+  },
+  "5241332": {
+    "artist": "Keith Lyn, Byron Lee And The Dragonaires",
+    "title": "Release Me / Musical Pressure",
+    "spotify": null,
+    "amazon": null
+  },
+  "5252717": {
+    "artist": "Phillip Fraser",
+    "title": "Moses Moses",
+    "spotify": null,
+    "amazon": null
+  },
+  "5255672": {
+    "artist": "Al Campbell",
+    "title": "Hide 'N' Seek / Soul Sister",
+    "spotify": null,
+    "amazon": null
+  },
+  "5271436": {
+    "artist": "John Holt",
+    "title": "Help Me Make It Through The Night",
+    "spotify": null,
+    "amazon": null
+  },
+  "5350722": {
+    "artist": "Vybz Kartel, I-Octane",
+    "title": "Cook / Clap Dem",
+    "spotify": null,
+    "amazon": null
+  },
+  "5374159": {
+    "artist": "Dennis Brown",
+    "title": "Make It Easy On Yourself",
+    "spotify": null,
+    "amazon": null
+  },
+  "5376407": {
+    "artist": "Turbulence",
+    "title": "One Don",
+    "spotify": null,
+    "amazon": null
+  },
+  "5382082": {
+    "artist": "Delroy Wilson",
+    "title": "Have Some Mercy",
+    "spotify": null,
+    "amazon": null
+  },
+  "5396987": {
+    "artist": "Toots & The Maytals, Desmond Dekker & The Aces",
+    "title": "Sweet & Dandy / Mother Young Gal",
+    "spotify": null,
+    "amazon": null
+  },
+  "5404885": {
+    "artist": "Pablo Casals",
+    "title": "Collector's Serie",
+    "spotify": null,
+    "amazon": null
+  },
+  "5448396": {
+    "artist": "Admiral Bailey",
+    "title": "Nuh Stop Seh So",
+    "spotify": null,
+    "amazon": null
+  },
+  "5504531": {
+    "artist": "Laurel Aitken, Duke Reid's All Stars",
+    "title": "Low Down Dirty Girl / Pink Lane Shuffle",
+    "spotify": null,
+    "amazon": null
+  },
+  "5508145": {
+    "artist": "Sly Dunbar",
+    "title": "Sly Wicked And Slick",
+    "spotify": null,
+    "amazon": null
+  },
+  "5514342": {
+    "artist": "Rector Butler",
+    "title": "Never Be Lonely",
+    "spotify": null,
+    "amazon": null
+  },
+  "5546358": {
+    "artist": "Delroy Wilson",
+    "title": "Stick By Me",
+    "spotify": null,
+    "amazon": null
+  },
+  "5547253": {
+    "artist": "Robert Schumann, Franz Liszt, Annie Fischer, Otto Klemperer, Philharmonia Orchestra",
+    "title": "Concerto In A Minor / Concerto No. 1 In E",
+    "spotify": null,
+    "amazon": null
+  },
+  "5572718": {
+    "artist": "Die Wiener Sängerknaben",
+    "title": "50 Jahre Wiener Sängerknaben",
+    "spotify": null,
+    "amazon": null
+  },
+  "5583488": {
+    "artist": "U-Roy",
+    "title": "Version Galore",
+    "spotify": null,
+    "amazon": null
+  },
+  "5587399": {
+    "artist": "Ranking Joe",
+    "title": "Leave Fe Mi Girl Arlene",
+    "spotify": null,
+    "amazon": null
+  },
+  "5688359": {
+    "artist": "Lord Creator",
+    "title": "Evening News",
+    "spotify": null,
+    "amazon": null
+  },
+  "5704836": {
+    "artist": "Various",
+    "title": "Reggae Hits Vol 18",
+    "spotify": null,
+    "amazon": null
+  },
+  "5910638": {
+    "artist": "Various",
+    "title": "Pickout All Stars Vol. 2",
+    "spotify": null,
+    "amazon": null
+  },
+  "5923507": {
+    "artist": "Vic Taylor, Byron Lee And The Dragonaires, Byron Lee And The Dragonaires",
+    "title": "For Your Precious Love / For Your Precious Love Ver.",
+    "spotify": null,
+    "amazon": null
+  },
+  "5936284": {
+    "artist": "Don Drummond",
+    "title": "In Memory Of Don Drummond",
+    "spotify": null,
+    "amazon": null
+  },
+  "5949376": {
+    "artist": "The Maytals",
+    "title": "Sixth & Seventh Books",
+    "spotify": null,
+    "amazon": null
+  },
+  "5949528": {
+    "artist": "Culture",
+    "title": "Two Sevens Clash",
+    "spotify": null,
+    "amazon": null
+  },
+  "5976298": {
+    "artist": "Akon, Nathan, Vybz Kartel",
+    "title": "Ma Ma Africa / Come Into My Room RMX",
+    "spotify": null,
+    "amazon": null
+  },
+  "6026373": {
+    "artist": "Sizzla",
+    "title": "Do Good Every Time",
+    "spotify": null,
+    "amazon": null
+  },
+  "6092669": {
+    "artist": "New Kidz, Alley Cat, Macka Diamond",
+    "title": "Informer / Lexus And Benz",
+    "spotify": null,
+    "amazon": null
+  },
+  "6126090": {
+    "artist": "The Tennors",
+    "title": "Weather Report",
+    "spotify": null,
+    "amazon": null
+  },
+  "6131126": {
+    "artist": "Pietro Mascagni",
+    "title": "Cavalleria Rusticana II",
+    "spotify": null,
+    "amazon": null
+  },
+  "6174304": {
+    "artist": "Max Romeo, Jenny Romeo",
+    "title": "High Hopes",
+    "spotify": null,
+    "amazon": null
+  },
+  "6212587": {
+    "artist": "Nicanor Zabaleta, Maurice Ravel, Claude Debussy, Georg Friedrich Händel, Johann Georg Albrechtsberger, Orchestre De Chambre Paul Kuentz, Paul Kuentz",
+    "title": "Werke Für Harfe Und Orchester",
+    "spotify": null,
+    "amazon": null
+  },
+  "6305532": {
+    "artist": "Elvis Presley",
+    "title": "My Baby Left Me",
+    "spotify": null,
+    "amazon": null
+  },
+  "6350100": {
+    "artist": "Joseph Haydn, Wolfgang Amadeus Mozart, Wanda Landowska",
+    "title": "Wanda Landowska Al Pianoforte",
+    "spotify": null,
+    "amazon": null
+  },
+  "6523523": {
+    "artist": "Pyotr Ilyich Tchaikovsky, Ernest Ansermet, L'Orchestre De La Suisse Romande",
+    "title": "Symphony No. 6 - \"Pathetique\"",
+    "spotify": null,
+    "amazon": null
+  },
+  "6562809": {
+    "artist": "Peter Metro",
+    "title": "Yardman",
+    "spotify": null,
+    "amazon": null
+  },
+  "6581764": {
+    "artist": "Ken Parker",
+    "title": "Jimmy Brown",
+    "spotify": null,
+    "amazon": null
+  },
+  "6659589": {
+    "artist": "Byron Lee And The Dragonaires",
+    "title": "The Sounds Of Jamaica",
+    "spotify": null,
+    "amazon": null
+  },
+  "6683950": {
+    "artist": "Ernest Wilson",
+    "title": "Let Them Talk / Truth Hurts",
+    "spotify": null,
+    "amazon": null
+  },
+  "6699802": {
+    "artist": "Madness",
+    "title": "Shut Up",
+    "spotify": null,
+    "amazon": null
+  },
+  "6702325": {
+    "artist": "The Melodians",
+    "title": "Lay It On",
+    "spotify": null,
+    "amazon": null
+  },
+  "6767119": {
+    "artist": "King Jammy",
+    "title": "Roots Reality",
+    "spotify": null,
+    "amazon": null
+  },
+  "6791241": {
+    "artist": "Jennifer Phillips",
+    "title": "My Boy Lollipop",
+    "spotify": null,
+    "amazon": null
+  },
+  "6792050": {
+    "artist": "Morgan Heritage, L.M.S",
+    "title": "Liberation / Never",
+    "spotify": null,
+    "amazon": null
+  },
+  "6808779": {
+    "artist": "Eddie And The Movements",
+    "title": "Kool-Um Down",
+    "spotify": null,
+    "amazon": null
+  },
+  "6943673": {
+    "artist": "Little John",
+    "title": "Form A Line",
+    "spotify": null,
+    "amazon": null
+  },
+  "6958479": {
+    "artist": "Josey Wales",
+    "title": "Who Wee Baby",
+    "spotify": null,
+    "amazon": null
+  },
+  "7044750": {
+    "artist": "Da'Ville",
+    "title": "In Heaven",
+    "spotify": null,
+    "amazon": "B0042KR4IA"
+  },
+  "7066049": {
+    "artist": "John Holt",
+    "title": "A Love I Can Feel",
+    "spotify": null,
+    "amazon": null
+  },
+  "7101016": {
+    "artist": "Louis De Froment, Pierre Pierlot",
+    "title": "Four Italian Oboe Concertos",
+    "spotify": null,
+    "amazon": null
+  },
+  "7119392": {
+    "artist": "The Techniques",
+    "title": "Place Call Love / My Whole Life Depends On You",
+    "spotify": null,
+    "amazon": null
+  },
+  "7175603": {
+    "artist": "Linval Thompson",
+    "title": "Kung-Fu",
+    "spotify": null,
+    "amazon": "B007D5BB44"
+  },
+  "7185588": {
+    "artist": "Harry Toddler, Desperado",
+    "title": "Tighty Tight / Amuse The People",
+    "spotify": null,
+    "amazon": null
+  },
+  "7229079": {
+    "artist": "Eric Donaldson",
+    "title": "Cherry Oh Baby",
+    "spotify": null,
+    "amazon": null
+  },
+  "7283696": {
+    "artist": "César Franck, Czech Philharmonic Chorus, The Prague Symphony Orchestra, Jean Fournet",
+    "title": "Psyché",
+    "spotify": null,
+    "amazon": null
+  },
+  "7407271": {
+    "artist": "The Clash",
+    "title": "London Calling",
+    "spotify": null,
+    "amazon": null
+  },
+  "7419151": {
+    "artist": "Pyotr Ilyich Tchaikovsky, Nathan Milstein, Boston Symphony Orchestra, Charles Munch",
+    "title": "Concerto Per Violino E Orchestra In Re Magg. Op. 35",
+    "spotify": null,
+    "amazon": null
+  },
+  "7521807": {
+    "artist": "Greyhound",
+    "title": "Moon River",
+    "spotify": null,
+    "amazon": null
+  },
+  "7589327": {
+    "artist": "Ludwig van Beethoven, Wilhelm Klepper, Nürnberger Symphoniker, Othmar F. M. Mága",
+    "title": "Concerto Per Violino E Orchestra Op. 61",
+    "spotify": null,
+    "amazon": null
+  },
+  "7610055": {
+    "artist": "Gyptian",
+    "title": "Ma Ma",
+    "spotify": null,
+    "amazon": null
+  },
+  "7652422": {
+    "artist": "Various",
+    "title": "Hottest Hits",
+    "spotify": null,
+    "amazon": null
+  },
+  "7778368": {
+    "artist": "Pyotr Ilyich Tchaikovsky, Ernest Ansermet, L'Orchestre De La Suisse Romande",
+    "title": "The Nutcracker - Highlights",
+    "spotify": null,
+    "amazon": null
+  },
+  "7780496": {
+    "artist": "Gioacchino Rossini",
+    "title": "Il Barbiere Di Siviglia - Selezione",
+    "spotify": null,
+    "amazon": null
+  },
+  "7923229": {
+    "artist": "Johann Sebastian Bach, Henryk Szeryng",
+    "title": "Sonate E Partite Per Violin Solo  Vol. II",
+    "spotify": null,
+    "amazon": null
+  },
+  "7923246": {
+    "artist": "Johann Sebastian Bach, Henryk Szeryng",
+    "title": "Sonate E Partite Per Violin Solo  Vol. III-Sonate N°3 In Do Magg.",
+    "spotify": null,
+    "amazon": null
+  },
+  "7970861": {
+    "artist": "Henryk Szeryng, Johann Sebastian Bach",
+    "title": "Sonates E Partite Per Violino Solo - Vol.1",
+    "spotify": null,
+    "amazon": null
+  },
+  "8077289": {
+    "artist": "Lady G",
+    "title": "No Bad Mine",
+    "spotify": null,
+    "amazon": null
+  },
+  "8179169": {
+    "artist": "Ludwig van Beethoven, The Philharmonic Promenade Orchestra, Sir Adrian Boult",
+    "title": "Sinfonia N. 6 Op. 68 \"Pastorale\"",
+    "spotify": null,
+    "amazon": null
+  },
+  "8521349": {
+    "artist": "Equipe 84",
+    "title": "È Dall'Amore Che Nasce L'Uomo",
+    "spotify": null,
+    "amazon": null
+  },
+  "8521620": {
+    "artist": "Various",
+    "title": "Rocksteady  Taking Over Orange Street 1966-1968",
+    "spotify": null,
+    "amazon": null
+  },
+  "8526530": {
+    "artist": "The Skatalites, Roy & Millie",
+    "title": "One Minute To Zero / We'll Meet ",
+    "spotify": null,
+    "amazon": null
+  },
+  "8563796": {
+    "artist": "The Blenders, The Reggae Boys",
+    "title": "Decimal Currency / Mama Look Deh",
+    "spotify": null,
+    "amazon": null
+  },
+  "8777849": {
+    "artist": "Georg Philipp Telemann, Agnes Giebel, Ira Malaniuk, Theo Altmeyer, Heinz Rehfuss, Franz Reuter-Wolf, Chœur Des Jeunes, Lausanne, Orchestre Pro Arte De Munich, Paulette Zanlonghi, Emmanuel Cornaz, Kurt Redel",
+    "title": "Magnificat 1-2",
+    "spotify": null,
+    "amazon": null
+  },
+  "8874001": {
+    "artist": "Antonín Dvořák, Joseph Keilberth, Bamberger Symphoniker",
+    "title": "Slawische Tänze Nr. 1 Bis 8, Op. 46",
+    "spotify": null,
+    "amazon": null
+  },
+  "9021794": {
+    "artist": "Frédéric Chopin, Franz Schubert, Tamás Vásáry, Amadeus-Quartett, Trio Di Trieste, Jörg Demus",
+    "title": "Una Scelta Di Capolavori",
+    "spotify": null,
+    "amazon": null
+  },
+  "9312774": {
+    "artist": "Lascelles Perkins",
+    "title": "Sings Studio One And More",
+    "spotify": null,
+    "amazon": null
+  },
+  "9356006": {
+    "artist": "Delroy Wilson",
+    "title": "Dancing Mood",
+    "spotify": null,
+    "amazon": null
+  },
+  "9393312": {
+    "artist": "Domenico Cimarosa, Giuseppe Tartini, Jean-Baptiste Lully, Orchestra \"Alessandro Scarlatti\" di Napoli Della RAI, Franco Caracciolo",
+    "title": "Concerto For Oboe And Orchestra / Concerto N. 58 / Ballet Suite",
+    "spotify": null,
+    "amazon": null
+  },
+  "9484914": {
+    "artist": "Various",
+    "title": "Bling Bling Christmas",
+    "spotify": null,
+    "amazon": null
+  },
+  "9490408": {
+    "artist": "Prince Buster",
+    "title": "Prince Buster Record Shack Presents The Original Golden Oldies Vol. 2",
+    "spotify": null,
+    "amazon": null
+  },
+  "9494401": {
+    "artist": "Equipe 84",
+    "title": "Resta (Stay) / Io Ho In Mente Te",
+    "spotify": null,
+    "amazon": null
+  },
+  "9497992": {
+    "artist": "Arthur Williams",
+    "title": "Yes, I'm Overshadowed / Pilgrim Traveller",
+    "spotify": null,
+    "amazon": null
+  },
+  "9498049": {
+    "artist": "The Cimberlets",
+    "title": "Was It True",
+    "spotify": null,
+    "amazon": null
+  },
+  "9526945": {
+    "artist": "The Maytals",
+    "title": "Daddy / What's On Your Mind",
+    "spotify": null,
+    "amazon": null
+  },
+  "9560213": {
+    "artist": "Bob Andy, Sound Dimension",
+    "title": "Feeling Soul",
+    "spotify": null,
+    "amazon": null
+  },
+  "9560397": {
+    "artist": "Hubert Lee, The Clarendonians, Prince Tony's All Stars",
+    "title": "High School Dance / School Version",
+    "spotify": null,
+    "amazon": null
+  },
+  "9560427": {
+    "artist": "Delroy Wilson, Lester Sterling",
+    "title": "I Can't Explain / The Wizard",
+    "spotify": null,
+    "amazon": null
+  },
+  "9750989": {
+    "artist": "Augustus Pablo",
+    "title": "Augustus Pablo At King Tubbys",
+    "spotify": null,
+    "amazon": null
+  },
+  "9851376": {
+    "artist": "Jimmy Cliff",
+    "title": "Suffering In The Land",
+    "spotify": null,
+    "amazon": null
+  },
+  "10068996": {
+    "artist": "Arturo Toscanini, NBC Symphony Orchestra",
+    "title": "Arturo Toscanini E La NBC Symphony Orchestra",
+    "spotify": null,
+    "amazon": null
+  },
+  "10265758": {
+    "artist": "Ludwig van Beethoven, Arturo Toscanini, NBC Symphony Orchestra",
+    "title": "Ouvertures",
+    "spotify": null,
+    "amazon": null
+  },
+  "10350388": {
+    "artist": "Jimmy Lindsay",
+    "title": "Where Is Your Love",
+    "spotify": null,
+    "amazon": null
+  },
+  "10492733": {
+    "artist": "Felix Mendelssohn-Bartholdy, Wolfgang Amadeus Mozart, Minneapolis Symphony Orchestra, Antal Dorati",
+    "title": "Sinfonia N. 4 In La Magg., Op. 90 \"Italiana\" / Sinfonia N. 40 In Sol Min., K. 550",
+    "spotify": null,
+    "amazon": null
+  },
+  "10554212": {
+    "artist": "Dennis Brown",
+    "title": "Money In My Pocket",
+    "spotify": null,
+    "amazon": null
+  },
+  "10681857": {
+    "artist": "Wolfgang Amadeus Mozart, The Allegri String Quartet, Stephen Bishop-Kovacevich, Jack Brymer, Patrick Ireland",
+    "title": "Stadler Quintet / Kegelstatt Trio",
+    "spotify": null,
+    "amazon": null
+  },
+  "10810270": {
+    "artist": "Bob Marley",
+    "title": "Duppy Conquer ",
+    "spotify": null,
+    "amazon": null
+  },
+  "11086522": {
+    "artist": "Ludwig van Beethoven, Gundula Janowitz, Christa Ludwig, Fritz Wunderlich, Walter Berry, Wiener Singverein, Berliner Philharmoniker, Herbert von Karajan",
+    "title": "Missa Solemnis",
+    "spotify": null,
+    "amazon": null
+  },
+  "11123016": {
+    "artist": "Prince Buster",
+    "title": "Breaking Up",
+    "spotify": null,
+    "amazon": null
+  },
+  "11137910": {
+    "artist": "Monster Empire, Flex, 'J'",
+    "title": "Wine For Me / No Borrow Clothes",
+    "spotify": null,
+    "amazon": null
+  },
+  "11177831": {
+    "artist": "Pama International",
+    "title": "Trojan Sessions",
+    "spotify": null,
+    "amazon": null
+  },
+  "11198159": {
+    "artist": "Ludwig van Beethoven, Pierre Monteux, London Symphony Orchestra",
+    "title": "Sinfonia N. 7",
+    "spotify": null,
+    "amazon": null
+  },
+  "11224816": {
+    "artist": "Tears For Fears",
+    "title": "Rule The World",
+    "spotify": null,
+    "amazon": null
+  },
+  "11224986": {
+    "artist": "Ludwig van Beethoven, Walter Gieseking",
+    "title": "Patetica / Chiaro Di Luna / Appassionata",
+    "spotify": null,
+    "amazon": null
+  },
+  "11374781": {
+    "artist": "Barrington Levy",
+    "title": "She's Mine",
+    "spotify": null,
+    "amazon": null
+  },
+  "11486169": {
+    "artist": "Georg Friedrich Händel",
+    "title": "Musica Sull'Acqua",
+    "spotify": null,
+    "amazon": null
+  },
+  "11547404": {
+    "artist": "Burro Banton",
+    "title": "Washington Session",
+    "spotify": null,
+    "amazon": null
+  },
+  "11585278": {
+    "artist": "Musical Youth, Frankee",
+    "title": "Pass The Dutchie / F U Right Back",
+    "spotify": null,
+    "amazon": null
+  },
+  "11763298": {
+    "artist": "Jascha Heifetz",
+    "title": "The Young Jascha Heifetz Violin Recital",
+    "spotify": null,
+    "amazon": null
+  },
+  "12176300": {
+    "artist": "Barry Brown",
+    "title": "Vibes Of Barry Brown",
+    "spotify": null,
+    "amazon": null
+  },
+  "12196872": {
+    "artist": "Alborosie, The Wailers Band",
+    "title": "Unbreakable",
+    "spotify": null,
+    "amazon": null
+  },
+  "12246149": {
+    "artist": "U-Roy",
+    "title": "The Originator",
+    "spotify": null,
+    "amazon": null
+  },
+  "12441587": {
+    "artist": "Frédéric Chopin",
+    "title": "Ballate - Improvvisi",
+    "spotify": null,
+    "amazon": null
+  },
+  "12441920": {
+    "artist": "Wolfgang Amadeus Mozart, Erich Penzel, Wiener Symphoniker, Bernhard Paumgartner",
+    "title": "4 Concerti Per Corno",
+    "spotify": null,
+    "amazon": null
+  },
+  "12712415": {
+    "artist": "Max Romeo, Max Romeo, Gregory Isaacs",
+    "title": "My Jamaican Collie / Push It Down",
+    "spotify": null,
+    "amazon": null
+  },
+  "12923559": {
+    "artist": "Peter Tosh",
+    "title": "Them Haffe Get A Beaten",
+    "spotify": null,
+    "amazon": null
+  },
+  "12933199": {
+    "artist": "Akasha",
+    "title": "Mother Of Exiles",
+    "spotify": null,
+    "amazon": null
+  },
+  "12955964": {
+    "artist": "Ludwig van Beethoven, Sviatoslav Richter, Moscow State Symphony Orchestra, Kurt Sanderling",
+    "title": "Concerto No.5 \"Imperatore\" Op.73",
+    "spotify": null,
+    "amazon": null
+  },
+  "13155343": {
+    "artist": "Pietro Mascagni",
+    "title": "Cavalleria Rusticana I",
+    "spotify": null,
+    "amazon": null
+  },
+  "13253867": {
+    "artist": "Peter Tosh",
+    "title": "Maga Dog",
+    "spotify": null,
+    "amazon": null
+  },
+  "13547022": {
+    "artist": "Wolfgang Amadeus Mozart, Symphonie-Orchester Des Bayerischen Rundfunks, Rudolf Koeckert, Rafael Kubelik",
+    "title": "Serenade <<Haffner>>",
+    "spotify": null,
+    "amazon": null
+  },
+  "13742504": {
+    "artist": "Dub Syndicate",
+    "title": "Tunes From The Missing Channel",
+    "spotify": null,
+    "amazon": "B010G3FIKW"
+  },
+  "14244754": {
+    "artist": "The Specials",
+    "title": "Specials",
+    "spotify": null,
+    "amazon": null
+  },
+  "14484579": {
+    "artist": "Jackie Mittoo",
+    "title": "Macka Fat",
+    "spotify": null,
+    "amazon": "B016VGBBEK"
+  },
+  "14606005": {
+    "artist": "Antonio Vivaldi, Angelo Ephrikian, Reno Fantuzzi, Scuola Veneziana Orchestra",
+    "title": "5 Concerti",
+    "spotify": null,
+    "amazon": null
+  },
+  "14771310": {
+    "artist": "Josey Wales",
+    "title": "Leggo Mi Hand Gateman",
+    "spotify": null,
+    "amazon": null
+  },
+  "14774956": {
+    "artist": "Ludwig van Beethoven, Orchester Der Wiener Staatsoper, Hermann Scherchen",
+    "title": "6 Ouvertures",
+    "spotify": null,
+    "amazon": null
+  },
+  "14955848": {
+    "artist": "Black Uhuru",
+    "title": "Positive",
+    "spotify": null,
+    "amazon": null
+  },
+  "15053903": {
+    "artist": "Wolfgang Amadeus Mozart, Wiener Philharmoniker, Karl Münchinger, Willi Boskovsky",
+    "title": "Haffner Serenade,  K.250",
+    "spotify": null,
+    "amazon": null
+  },
+  "15124785": {
+    "artist": "Benjamin Britten, Peter Pears, London Symphony Orchestra",
+    "title": "Nocturne - Four Sea Interludes - Passacaglia (Peter Grimes)",
+    "spotify": null,
+    "amazon": null
+  },
+  "15511345": {
+    "artist": "Robert Schumann, Carl Schuricht, Orchestre De La Société Des Concerts Du Conservatoire",
+    "title": "Symphony No.3 In E Flat Major 'Rhenish'",
+    "spotify": null,
+    "amazon": null
+  },
+  "16292613": {
+    "artist": "Bob Marley & The Wailers",
+    "title": "Uprising",
+    "spotify": null,
+    "amazon": null
+  },
+  "16615791": {
+    "artist": "Joseph Haydn, Prague Chamber Orchestra",
+    "title": "Symphony No. 73 \"La Chasse\" • Symphony No. 96 \"The Miracle\"",
+    "spotify": null,
+    "amazon": null
+  },
+  "17034240": {
+    "artist": "Wolfgang Amadeus Mozart, The Academy Of St. Martin-in-the-Fields, Sir Neville Marriner",
+    "title": "Frühe Sinfonien – 6",
+    "spotify": null,
+    "amazon": null
+  },
+  "18758695": {
+    "artist": "Frédéric Chopin, Regina Smendzianka",
+    "title": "Notturni E Mazurke",
+    "spotify": null,
+    "amazon": null
+  },
+  "19487983": {
+    "artist": "Daniel Barenboim, Wolfgang Amadeus Mozart, English Chamber Orchestra",
+    "title": "Sinfonien Nr. 35, Nr. 32 , Nr. 38",
+    "spotify": null,
+    "amazon": null
+  },
+  "19529671": {
+    "artist": "Mungo's Hi-Fi",
+    "title": "Antidote",
+    "spotify": null,
+    "amazon": null
+  },
+  "19850398": {
+    "artist": "Giacomo Puccini, Renata Scotto, Carlo Bergonzi, Anna Di Stasio, Coro Del Teatro Dell'Opera Di Roma, Orchestra Del Teatro Dell'Opera Di Roma, Sir John Barbirolli",
+    "title": "Selezione Da: Madama Butterfly",
+    "spotify": null,
+    "amazon": null
+  },
+  "20038243": {
+    "artist": "Arcangelo Corelli, Antonio Vivaldi",
+    "title": "Concerto Grosso Fatto Per La Notte Di Natale Op. 6 Nr. 8 G-moll (Weihnachtskonzert) / Concerto Per La Viola D'Amore, Liuto E Con Tutti Gl'istromenti Sordini D-moll P. V. 266",
+    "spotify": null,
+    "amazon": null
+  },
+  "21174973": {
+    "artist": "Ludwig van Beethoven, Johannes Brahms, Leningrad Philharmonic Orchestra, Kiril Kondrashin, David Oistrach",
+    "title": "Concerto Per Violino E Orchestra Op.61 / Concerto Per Violino E Orchestra In Re Op.77",
+    "spotify": null,
+    "amazon": null
+  },
+  "21711712": {
+    "artist": "Ludwig van Beethoven",
+    "title": "Concerto N. 4 Per Piano In Sol Magg., Op. 58",
+    "spotify": null,
+    "amazon": null
+  },
+  "22764755": {
+    "artist": "Anthony Johnson",
+    "title": "Gun Shot",
+    "spotify": null,
+    "amazon": null
+  },
+  "23052995": {
+    "artist": "Madness",
+    "title": "Wonderful",
+    "spotify": null,
+    "amazon": null
+  }
+}
