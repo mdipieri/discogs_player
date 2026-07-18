@@ -1,10 +1,12 @@
 name: Deploy su GitHub Pages
 
-# L'ambiente github-pages accetta deploy solo dal branch predefinito del repo:
-# teniamo entrambi i branch nei trigger così il deploy parte da quello giusto.
+# L'ambiente github-pages accetta deploy solo dal branch predefinito del repo
+# (claude/vinyl-collection-streaming-oosmze): trigger solo da lì, altrimenti i
+# run partiti da altri branch falliscono e cancellano quelli buoni (stesso
+# gruppo di concorrenza).
 on:
   push:
-    branches: [main, claude/vinyl-collection-streaming-oosmze]
+    branches: [claude/vinyl-collection-streaming-oosmze]
   workflow_dispatch:
 
 permissions:
