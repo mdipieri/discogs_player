@@ -5,7 +5,11 @@
 
    - Le voci con "manual": true non vengono mai toccate.
    - I valori già trovati non vengono sovrascritti; i null vengono ritentati.
-   Env: DISCOGS_USER (default dipdkg), DISCOGS_TOKEN (opzionale, velocizza). */
+   - Odesli non espone più i link Spotify: gli ID Spotify vengono risolti
+     solo se sono configurate le credenziali ufficiali (secrets
+     SPOTIFY_CLIENT_ID / SPOTIFY_CLIENT_SECRET, client credentials flow).
+   Env: DISCOGS_USER (default dipdkg), DISCOGS_TOKEN (opzionale, velocizza),
+        SPOTIFY_CLIENT_ID / SPOTIFY_CLIENT_SECRET (opzionali). */
 
 import fs from "node:fs";
 import path from "node:path";
@@ -118,6 +122,48 @@ async function searchDeezer(artist, title, isVarious) {
   return pickBest(candidates, artist, title, isVarious);
 }
 
+/* ---------- Spotify (API ufficiale, solo con credenziali) ---------- */
+
+const SPOTIFY_ID = process.env.SPOTIFY_CLIENT_ID || "";
+const SPOTIFY_SECRET = process.env.SPOTIFY_CLIENT_SECRET || "";
+let spotifyToken = null;
+
+async function getSpotifyToken() {
+  if (!SPOTIFY_ID || !SPOTIFY_SECRET) return null;
+  if (spotifyToken && spotifyToken.expires > Date.now()) return spotifyToken.value;
+  const res = await fetch("https://accounts.spotify.com/api/token", {
+    method: "POST",
+    headers: {
+      Authorization: "Basic " + Buffer.from(`${SPOTIFY_ID}:${SPOTIFY_SECRET}`).toString("base64"),
+      "Content-Type": "application/x-www-form-urlencoded",
+    },
+    body: "grant_type=client_credentials",
+  });
+  if (!res.ok) return null;
+  const data = await res.json();
+  spotifyToken = { value: data.access_token, expires: Date.now() + (data.expires_in - 60) * 1000 };
+  return spotifyToken.value;
+}
+
+async function searchSpotify(artist, title, isVarious) {
+  const token = await getSpotifyToken();
+  if (!token) return null;
+  const q = isVarious ? title : `album:${title} artist:${artist}`;
+  const res = await fetch(
+    `https://api.spotify.com/v1/search?type=album&limit=8&q=${encodeURIComponent(q)}`,
+    { headers: { Authorization: `Bearer ${token}` } }
+  );
+  await sleep(400);
+  if (!res.ok) return null;
+  const data = await res.json();
+  const candidates = (data.albums?.items || []).map((a) => ({
+    artist: (a.artists || []).map((x) => x.name).join(", "),
+    title: a.name,
+    id: a.id,
+  }));
+  return pickBest(candidates, artist, title, isVarious)?.id || null;
+}
+
 async function resolveWithOdesli(albumUrl) {
   const data = await getJSON(`https://api.song.link/v1-alpha.1/links?userCountry=IT&url=${encodeURIComponent(albumUrl)}`);
   await sleep(6500); // Odesli: 10 richieste/min senza chiave
@@ -147,15 +193,20 @@ for (const rel of collection) {
   }
 
   const isVarious = /^various/i.test(rel.artist);
-  const match = (await searchItunes(rel.artist, rel.title, isVarious)) || (await searchDeezer(rel.artist, rel.title, isVarious));
+
+  // Spotify via API ufficiale (se ci sono le credenziali); Amazon via Odesli.
+  const spotifyId = cur?.spotify || (await searchSpotify(rel.artist, rel.title, isVarious));
 
   let ids = { spotify: null, amazon: null };
-  if (match) ids = await resolveWithOdesli(match.url);
+  if (!cur?.amazon) {
+    const match = (await searchItunes(rel.artist, rel.title, isVarious)) || (await searchDeezer(rel.artist, rel.title, isVarious));
+    if (match) ids = await resolveWithOdesli(match.url);
+  }
 
   existing[key] = {
     artist: rel.artist,
     title: rel.title,
-    spotify: cur?.spotify || ids.spotify,
+    spotify: spotifyId || ids.spotify,
     amazon: cur?.amazon || ids.amazon,
   };
   if (existing[key].spotify || existing[key].amazon) mapped++;

@@ -26,6 +26,8 @@ jobs:
         run: node scripts/build-mappings.mjs
         env:
           DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
       - name: Commit e deploy se cambiato
         env:
           GH_TOKEN: ${{ github.token }}
