@@ -1,0 +1,23 @@
+name: Debug Odesli
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Interroga Odesli e mostra le piattaforme restituite
+        run: |
+          for url in \
+            "https://music.apple.com/us/album/kind-of-blue/268443092" \
+            "https://www.deezer.com/album/75621062" ; do
+            echo "=== $url"
+            curl -s "https://api.song.link/v1-alpha.1/links?userCountry=IT&url=$(python3 -c "import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1],safe=''))" "$url")" > resp.json
+            python3 - <<'EOF'
+          import json
+          d = json.load(open("resp.json"))
+          lp = d.get("linksByPlatform", {})
+          print("chiavi linksByPlatform:", sorted(lp.keys()))
+          for k in ("spotify", "amazonMusic", "appleMusic"):
+              print(k, "->", lp.get(k, {}).get("url"))
+          EOF
+            sleep 7
+          done
