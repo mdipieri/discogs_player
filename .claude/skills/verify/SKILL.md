@@ -41,3 +41,12 @@ Attenzione: tra una pagina e l'altra l'app attende ~2.6s senza token
 
 - `[hidden]` è neutralizzato da qualunque regola `display:` autore: il CSS
   ha `[hidden] { display: none !important; }` apposta — non rimuoverla.
+
+## Mapping streaming
+
+- `mappings.json` (root) mappa release Discogs → ID Spotify/ASIN Amazon; l'app
+  fa fallback sulla ricerca per gli ID null/assenti. Nei test mockare con
+  `page.route("**/mappings.json", ...)` PRIMA di `page.goto`.
+- Il file è generato da `scripts/build-mappings.mjs` via workflow
+  `mappings.yml` (gira solo in GitHub Actions: gli host iTunes/Deezer/Odesli
+  sono bloccati dal proxy della sandbox).

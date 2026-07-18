@@ -24,6 +24,16 @@
   };
 
   let collection = [];
+  let mappings = {};
+
+  async function loadMappings() {
+    try {
+      const res = await fetch("mappings.json", { cache: "no-cache" });
+      if (res.ok) mappings = await res.json();
+    } catch {
+      /* senza mappa restano i link di ricerca */
+    }
+  }
 
   /* ---------- Impostazioni ---------- */
 
@@ -240,8 +250,14 @@
     // "Various" nella query confonde la ricerca: per le compilation usa solo il titolo.
     const query = r.artist === "Various" ? r.title : `${r.artist} ${r.title}`;
     const q = encodeURIComponent(query);
-    $("#link-spotify").href = `https://open.spotify.com/search/${q}`;
-    $("#link-amazon").href = `https://music.amazon.com/search/${q}`;
+    // Con un ID mappato si apre direttamente l'album; altrimenti la ricerca.
+    const map = mappings[String(r.id)] || {};
+    $("#link-spotify").href = map.spotify
+      ? `https://open.spotify.com/album/${map.spotify}`
+      : `https://open.spotify.com/search/${q}`;
+    $("#link-amazon").href = map.amazon
+      ? `https://music.amazon.com/albums/${map.amazon}`
+      : `https://music.amazon.com/search/${q}`;
     $("#link-ytmusic").href = `https://music.youtube.com/search?q=${q}`;
     $("#link-discogs").href = `https://www.discogs.com/release/${r.id}`;
 
@@ -349,5 +365,6 @@
     navigator.serviceWorker.register("sw.js").catch(() => {});
   }
 
+  loadMappings();
   loadCollection();
 })();

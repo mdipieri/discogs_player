@@ -1,0 +1,44 @@
+name: Aggiorna mapping streaming
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 5 * * 1" # ogni lunedì mattina, per i nuovi vinili
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: mappings
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Genera mappings.json
+        run: node scripts/build-mappings.mjs
+        env:
+          DISCOGS_TOKEN: ${{ secrets.DISCOGS_TOKEN }}
+      - name: Commit e deploy se cambiato
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet mappings.json; then
+            echo "Nessun cambiamento nella mappa."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add mappings.json
+          git commit -m "Aggiorna mapping streaming (automatico)"
+          git push
+          # I push fatti con GITHUB_TOKEN non fanno scattare altri workflow:
+          # il deploy va lanciato esplicitamente.
+          gh workflow run deploy.yml --ref "$GITHUB_REF_NAME"
