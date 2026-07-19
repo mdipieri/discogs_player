@@ -16,6 +16,7 @@
     <div class="topbar-inner">
       <h1 class="logo"><span class="logo-disc" aria-hidden="true"></span> Vinyl Streamer</h1>
       <div class="topbar-actions">
+        <button id="btn-crate" class="icon-btn" title="Sfoglia come vinili">🎴</button>
         <button id="btn-random" class="icon-btn" title="Album a caso">🎲</button>
         <button id="btn-refresh" class="icon-btn" title="Ricarica collezione da Discogs">⟳</button>
         <button id="btn-settings" class="icon-btn" title="Impostazioni">⚙</button>
@@ -23,6 +24,13 @@
     </div>
     <div class="toolbar">
       <input id="search" type="search" placeholder="Cerca artista o album…" autocomplete="off">
+      <select id="format-filter" title="Filtra per formato">
+        <option value="">Tutti i formati</option>
+        <option value="LP">LP</option>
+        <option value='12"'>12"</option>
+        <option value='7"'>7"</option>
+        <option value="Altro">Altri formati</option>
+      </select>
       <select id="genre-filter" title="Filtra per genere">
         <option value="">Tutti i generi</option>
       </select>
@@ -46,6 +54,12 @@
     <p id="count" class="count" hidden></p>
     <div id="grid" class="grid"></div>
   </main>
+
+  <!-- Sfoglia come vinili (crate digging) -->
+  <div id="crate" class="crate" hidden>
+    <button id="crate-close" class="dialog-close" title="Chiudi">✕</button>
+    <div id="crate-scroller" class="crate-scroller"></div>
+  </div>
 
   <!-- Dettaglio album -->
   <dialog id="album-dialog" class="album-dialog">

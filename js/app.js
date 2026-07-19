@@ -3,7 +3,7 @@
   "use strict";
 
   const DEFAULT_USERNAME = "dipdkg";
-  const CACHE_KEY = "vinyl-streamer:collection";
+  const CACHE_KEY = "vinyl-streamer:collection:v2"; // v2: aggiunto il campo fmt
   const SETTINGS_KEY = "vinyl-streamer:settings";
   const CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24h, poi si ricarica da Discogs
   const PER_PAGE = 100;
@@ -18,6 +18,7 @@
     count: $("#count"),
     search: $("#search"),
     genreFilter: $("#genre-filter"),
+    formatFilter: $("#format-filter"),
     sort: $("#sort"),
     albumDialog: $("#album-dialog"),
     settingsDialog: $("#settings-dialog"),
@@ -60,6 +61,15 @@
     return name.replace(/\s+\(\d+\)$/, "");
   }
 
+  // Classifica il formato fisico dalle descrizioni Discogs (es. ["12\"", "Single"]).
+  function classifyFormat(formats) {
+    const desc = (formats || []).flatMap((f) => [f.name, ...(f.descriptions || [])]).join(" ");
+    if (desc.includes('7"')) return '7"';
+    if (desc.includes('12"') || desc.includes("Maxi")) return '12"';
+    if (/\bLP\b|Album/.test(desc)) return "LP";
+    return "Altro";
+  }
+
   function simplifyRelease(r) {
     const b = r.basic_information || {};
     const artists = (b.artists || []).map((a) => cleanArtist(a.name));
@@ -73,6 +83,7 @@
       genres: b.genres || [],
       styles: b.styles || [],
       format: (b.formats && b.formats[0] && b.formats[0].name) || "",
+      fmt: classifyFormat(b.formats),
       added: r.date_added || "",
     };
   }
@@ -162,10 +173,12 @@
   function currentView() {
     const q = els.search.value.trim().toLowerCase();
     const genre = els.genreFilter.value;
+    const fmt = els.formatFilter.value;
     const sort = els.sort.value;
 
     let view = collection.filter((r) => {
       if (genre && !r.genres.includes(genre)) return false;
+      if (fmt && r.fmt !== fmt) return false;
       if (q && !(`${r.artist} ${r.title}`.toLowerCase().includes(q))) return false;
       return true;
     });
@@ -264,6 +277,65 @@
     els.albumDialog.showModal();
   }
 
+  /* ---------- Sfoglia come vinili (crate digging) ---------- */
+
+  const crate = $("#crate");
+  const crateScroller = $("#crate-scroller");
+
+  function openCrate() {
+    const view = currentView();
+    if (!view.length) return;
+
+    crateScroller.innerHTML = "";
+    const frag = document.createDocumentFragment();
+    view.forEach((r, i) => {
+      const slide = document.createElement("div");
+      slide.className = "crate-slide";
+
+      const wrap = document.createElement("button");
+      wrap.type = "button";
+      wrap.className = "crate-cover-wrap";
+      const img = document.createElement("img");
+      img.className = "crate-cover";
+      img.loading = "lazy";
+      img.alt = "";
+      img.src = r.cover || r.thumb;
+      wrap.append(img);
+      wrap.addEventListener("click", () => openAlbum(r));
+
+      const info = document.createElement("div");
+      info.className = "crate-info";
+      const title = document.createElement("p");
+      title.className = "crate-title";
+      title.textContent = r.title;
+      const artist = document.createElement("p");
+      artist.className = "crate-artist";
+      artist.textContent = r.artist;
+      const meta = document.createElement("p");
+      meta.className = "crate-meta";
+      meta.textContent = [r.year || null, r.fmt, `${i + 1} / ${view.length}`].filter(Boolean).join(" · ");
+      info.append(title, artist, meta);
+
+      slide.append(wrap, info);
+      frag.append(slide);
+    });
+    crateScroller.append(frag);
+    crateScroller.scrollTop = 0;
+    crate.hidden = false;
+    document.body.classList.add("crate-open");
+  }
+
+  function closeCrate() {
+    crate.hidden = true;
+    document.body.classList.remove("crate-open");
+  }
+
+  $("#btn-crate").addEventListener("click", openCrate);
+  $("#crate-close").addEventListener("click", closeCrate);
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !crate.hidden && !els.albumDialog.open) closeCrate();
+  });
+
   /* ---------- Caricamento ---------- */
 
   async function loadCollection({ force = false } = {}) {
@@ -326,6 +398,7 @@
 
   els.search.addEventListener("input", render);
   els.genreFilter.addEventListener("change", render);
+  els.formatFilter.addEventListener("change", render);
   els.sort.addEventListener("change", render);
 
   $("#btn-refresh").addEventListener("click", () => loadCollection({ force: true }));

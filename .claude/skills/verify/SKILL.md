@@ -50,3 +50,10 @@ Attenzione: tra una pagina e l'altra l'app attende ~2.6s senza token
 - Il file è generato da `scripts/build-mappings.mjs` via workflow
   `mappings.yml` (gira solo in GitHub Actions: gli host iTunes/Deezer/Odesli
   sono bloccati dal proxy della sandbox).
+
+## Filtro formato e vista crate
+
+- Il formato (LP / 12" / 7" / Altro) è derivato da `formats[].descriptions`
+  dei mock: passare `fmtDesc` a mkRelease nei test.
+- La vista crate (#btn-crate) usa scroll-snap verticale; tap sulla copertina
+  apre il dialog album. Cache collezione: chiave v2 (campo fmt).
