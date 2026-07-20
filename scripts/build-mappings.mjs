@@ -127,9 +127,12 @@ async function searchDeezer(artist, title, isVarious) {
 const SPOTIFY_ID = process.env.SPOTIFY_CLIENT_ID || "";
 const SPOTIFY_SECRET = process.env.SPOTIFY_CLIENT_SECRET || "";
 let spotifyToken = null;
+// Diventa true dopo il primo errore fatale (es. l'app Spotify non ha i
+// permessi per la Search API): evita di ripetere 600+ richieste inutili.
+let spotifyDisabled = !SPOTIFY_ID || !SPOTIFY_SECRET;
 
 async function getSpotifyToken() {
-  if (!SPOTIFY_ID || !SPOTIFY_SECRET) return null;
+  if (spotifyDisabled) return null;
   if (spotifyToken && spotifyToken.expires > Date.now()) return spotifyToken.value;
   const res = await fetch("https://accounts.spotify.com/api/token", {
     method: "POST",
@@ -139,7 +142,11 @@ async function getSpotifyToken() {
     },
     body: "grant_type=client_credentials",
   });
-  if (!res.ok) return null;
+  if (!res.ok) {
+    console.warn(`Spotify: token non ottenuto (HTTP ${res.status}). Colonna Spotify disabilitata per questo giro.`);
+    spotifyDisabled = true;
+    return null;
+  }
   const data = await res.json();
   spotifyToken = { value: data.access_token, expires: Date.now() + (data.expires_in - 60) * 1000 };
   return spotifyToken.value;
@@ -154,7 +161,12 @@ async function searchSpotify(artist, title, isVarious) {
     { headers: { Authorization: `Bearer ${token}` } }
   );
   await sleep(400);
-  if (!res.ok) return null;
+  if (!res.ok) {
+    const msg = (await res.text().catch(() => "")).slice(0, 160);
+    console.warn(`Spotify: search HTTP ${res.status} — ${msg}. Colonna Spotify disabilitata per questo giro.`);
+    spotifyDisabled = true; // es. "Active premium subscription required for the owner of the app"
+    return null;
+  }
   const data = await res.json();
   const candidates = (data.albums?.items || []).map((a) => ({
     artist: (a.artists || []).map((x) => x.name).join(", "),
