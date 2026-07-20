@@ -16,7 +16,7 @@
     <div class="topbar-inner">
       <h1 class="logo"><span class="logo-disc" aria-hidden="true"></span> Vinyl Streamer</h1>
       <div class="topbar-actions">
-        <button id="btn-crate" class="icon-btn" title="Sfoglia come vinili">🎴</button>
+        <button id="btn-view" class="icon-btn" title="Vista griglia">▦</button>
         <button id="btn-random" class="icon-btn" title="Album a caso">🎲</button>
         <button id="btn-refresh" class="icon-btn" title="Ricarica collezione da Discogs">⟳</button>
         <button id="btn-settings" class="icon-btn" title="Impostazioni">⚙</button>
@@ -52,14 +52,18 @@
     </div>
     <div id="error" class="error" hidden></div>
     <p id="count" class="count" hidden></p>
-    <div id="grid" class="grid"></div>
-  </main>
+    <div id="grid" class="grid" hidden></div>
 
-  <!-- Sfoglia come vinili (crate digging) -->
-  <div id="crate" class="crate" hidden>
-    <button id="crate-close" class="dialog-close" title="Chiudi">✕</button>
-    <div id="crate-scroller" class="crate-scroller"></div>
-  </div>
+    <!-- Vista predefinita: sfoglia come vinili (crate digging) -->
+    <div id="crate-view" class="crate-view" hidden>
+      <div id="deck" class="deck"></div>
+      <div class="crate-info">
+        <p id="crate-title" class="crate-title"></p>
+        <p id="crate-artist" class="crate-artist"></p>
+        <p id="crate-meta" class="crate-meta"></p>
+      </div>
+    </div>
+  </main>
 
   <!-- Dettaglio album -->
   <dialog id="album-dialog" class="album-dialog">

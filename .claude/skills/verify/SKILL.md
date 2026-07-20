@@ -55,5 +55,9 @@ Attenzione: tra una pagina e l'altra l'app attende ~2.6s senza token
 
 - Il formato (LP / 12" / 7" / Altro) è derivato da `formats[].descriptions`
   dei mock: passare `fmtDesc` a mkRelease nei test.
-- La vista crate (#btn-crate) usa scroll-snap verticale; tap sulla copertina
-  apre il dialog album. Cache collezione: chiave v2 (campo fmt).
+- La vista **default è il crate** (#crate-view): pila di card con gesture
+  Pointer Events — swipe giù = successivo, su = precedente, destra = apre il
+  dialog streaming. La griglia si attiva col toggle #btn-view (persistito in
+  localStorage). Nei test simulare le gesture con page.mouse (down/move/up).
+- Lanciare gli e2e con cwd nella scratchpad, altrimenti gli screenshot
+  finiscono nella root del repo. Cache collezione: chiave v2 (campo fmt).

@@ -27,6 +27,12 @@
   let collection = [];
   let mappings = {};
 
+  // Vista predefinita: crate (sfoglia come vinili); la griglia resta col toggle.
+  const VIEW_KEY = "vinyl-streamer:view";
+  let viewMode = localStorage.getItem(VIEW_KEY) === "grid" ? "grid" : "crate";
+  let crateItems = [];
+  let crateIndex = 0;
+
   async function loadMappings() {
     try {
       const res = await fetch("mappings.json", { cache: "no-cache" });
@@ -196,8 +202,19 @@
 
   function render() {
     const view = currentView();
+    const showingCrate = viewMode === "crate";
 
-    els.count.hidden = false;
+    $("#crate-view").hidden = !showingCrate;
+    els.grid.hidden = showingCrate;
+    els.count.hidden = showingCrate;
+
+    if (showingCrate) {
+      crateItems = view;
+      if (crateIndex > view.length - 1) crateIndex = 0;
+      renderDeck();
+      return;
+    }
+
     els.count.textContent =
       view.length === collection.length
         ? `${collection.length} dischi in collezione`
@@ -277,63 +294,197 @@
     els.albumDialog.showModal();
   }
 
-  /* ---------- Sfoglia come vinili (crate digging) ---------- */
+  /* ---------- Vista crate (default): sfoglia come vinili ---------- */
 
-  const crate = $("#crate");
-  const crateScroller = $("#crate-scroller");
+  const deck = $("#deck");
 
-  function openCrate() {
-    const view = currentView();
-    if (!view.length) return;
+  // Slot k = posizione nella pila: 0 in cima, 1 e 2 spuntano da sotto.
+  function slotTransform(k) {
+    return `translate(-50%, -50%) translateY(${k * 20}px) scale(${1 - k * 0.05})`;
+  }
 
-    crateScroller.innerHTML = "";
-    const frag = document.createDocumentFragment();
-    view.forEach((r, i) => {
-      const slide = document.createElement("div");
-      slide.className = "crate-slide";
+  function applySlot(card, k) {
+    card.style.transform = slotTransform(Math.max(0, k));
+    card.style.opacity = k > 2.2 ? "0" : "1";
+  }
 
-      const wrap = document.createElement("button");
-      wrap.type = "button";
-      wrap.className = "crate-cover-wrap";
+  function updateCrateInfo() {
+    const r = crateItems[crateIndex];
+    if (!r) {
+      $("#crate-title").textContent = "Nessun disco";
+      $("#crate-artist").textContent = "";
+      $("#crate-meta").textContent = "Prova a cambiare filtri o ricerca";
+      return;
+    }
+    $("#crate-title").textContent = r.title;
+    $("#crate-artist").textContent = r.artist;
+    $("#crate-meta").textContent = [r.year || null, r.fmt, `${crateIndex + 1} / ${crateItems.length}`]
+      .filter(Boolean)
+      .join(" · ");
+  }
+
+  function renderDeck() {
+    deck.innerHTML = "";
+    for (let k = Math.min(2, crateItems.length - 1 - crateIndex); k >= 0; k--) {
+      const r = crateItems[crateIndex + k];
+      const card = document.createElement("div");
+      card.className = "deck-card";
+      card.dataset.k = k;
+      card.style.zIndex = String(10 - k);
+
+      const vinyl = document.createElement("div");
+      vinyl.className = "deck-vinyl";
       const img = document.createElement("img");
-      img.className = "crate-cover";
-      img.loading = "lazy";
-      img.alt = "";
+      img.className = "deck-cover";
       img.src = r.cover || r.thumb;
-      wrap.append(img);
-      wrap.addEventListener("click", () => openAlbum(r));
+      img.alt = "";
+      img.draggable = false;
 
-      const info = document.createElement("div");
-      info.className = "crate-info";
-      const title = document.createElement("p");
-      title.className = "crate-title";
-      title.textContent = r.title;
-      const artist = document.createElement("p");
-      artist.className = "crate-artist";
-      artist.textContent = r.artist;
-      const meta = document.createElement("p");
-      meta.className = "crate-meta";
-      meta.textContent = [r.year || null, r.fmt, `${i + 1} / ${view.length}`].filter(Boolean).join(" · ");
-      info.append(title, artist, meta);
+      card.append(vinyl, img);
+      applySlot(card, k);
+      deck.append(card);
+    }
+    updateCrateInfo();
+  }
 
-      slide.append(wrap, info);
-      frag.append(slide);
+  function topCard() {
+    return deck.querySelector('.deck-card[data-k="0"]');
+  }
+
+  function springBack() {
+    const top = topCard();
+    if (!top) return;
+    top.style.transition = "transform 0.2s ease-out";
+    applySlot(top, 0);
+    const vinyl = top.querySelector(".deck-vinyl");
+    vinyl.style.transition = "transform 0.2s ease-out";
+    vinyl.style.transform = "";
+    deck.querySelectorAll(".deck-card").forEach((c) => {
+      const k = +c.dataset.k;
+      if (k > 0) {
+        c.style.transition = "transform 0.2s ease-out";
+        applySlot(c, k);
+      }
     });
-    crateScroller.append(frag);
-    crateScroller.scrollTop = 0;
-    crate.hidden = false;
-    document.body.classList.add("crate-open");
   }
 
-  function closeCrate() {
-    crate.hidden = true;
-    document.body.classList.remove("crate-open");
+  function crateNext() {
+    if (crateIndex >= crateItems.length - 1) {
+      springBack();
+      return;
+    }
+    const top = topCard();
+    top.style.transition = "transform 0.22s ease-in";
+    top.style.transform = "translate(-50%, 90vh) rotate(5deg)";
+    deck.querySelectorAll(".deck-card").forEach((c) => {
+      const k = +c.dataset.k;
+      if (k > 0) {
+        c.style.transition = "transform 0.22s ease-out";
+        applySlot(c, k - 1);
+      }
+    });
+    setTimeout(() => {
+      crateIndex++;
+      renderDeck();
+    }, 220);
   }
 
-  $("#btn-crate").addEventListener("click", openCrate);
-  $("#crate-close").addEventListener("click", closeCrate);
+  function cratePrev() {
+    if (crateIndex <= 0) {
+      springBack();
+      return;
+    }
+    crateIndex--;
+    renderDeck();
+    // Il disco precedente rientra dal basso, come rimetterlo nella cassa.
+    const top = topCard();
+    top.style.transition = "none";
+    top.style.transform = "translate(-50%, 70vh) rotate(4deg)";
+    requestAnimationFrame(() =>
+      requestAnimationFrame(() => {
+        top.style.transition = "transform 0.22s ease-out";
+        applySlot(top, 0);
+      })
+    );
+  }
+
+  // Gesture: giù = disco successivo, su = precedente,
+  // destra = sfila il vinile e apre la scheda streaming.
+  let drag = null;
+
+  deck.addEventListener("pointerdown", (e) => {
+    if (!crateItems.length) return;
+    drag = { x: e.clientX, y: e.clientY, axis: null, dx: 0, dy: 0 };
+    deck.setPointerCapture(e.pointerId);
+  });
+
+  deck.addEventListener("pointermove", (e) => {
+    if (!drag) return;
+    const dx = e.clientX - drag.x;
+    const dy = e.clientY - drag.y;
+    if (!drag.axis) {
+      if (Math.hypot(dx, dy) < 10) return;
+      drag.axis = Math.abs(dx) > Math.abs(dy) ? "x" : "y";
+    }
+    const top = topCard();
+    if (!top) return;
+
+    if (drag.axis === "y") {
+      drag.dy = dy;
+      const capped = dy < 0 ? Math.max(dy, -120) * 0.45 : dy;
+      top.style.transition = "none";
+      top.style.transform = `translate(-50%, calc(-50% + ${capped}px)) rotate(${capped / 45}deg)`;
+      const p = Math.min(1, Math.max(0, dy / 240));
+      deck.querySelectorAll(".deck-card").forEach((c) => {
+        const k = +c.dataset.k;
+        if (k > 0) {
+          c.style.transition = "none";
+          applySlot(c, k - p);
+        }
+      });
+    } else {
+      drag.dx = dx;
+      const vinyl = top.querySelector(".deck-vinyl");
+      const capped = dx < 0 ? Math.max(dx, -60) * 0.4 : Math.min(dx, 300);
+      vinyl.style.transition = "none";
+      vinyl.style.transform = `translateX(${capped}px)`;
+    }
+  });
+
+  function endDrag() {
+    if (!drag) return;
+    const { axis, dx, dy } = drag;
+    drag = null;
+    if (axis === "y") {
+      if (dy > 90) crateNext();
+      else if (dy < -70) cratePrev();
+      else springBack();
+    } else if (axis === "x") {
+      if (dx > 100 && crateItems[crateIndex]) openAlbum(crateItems[crateIndex]);
+      springBack();
+    }
+  }
+
+  deck.addEventListener("pointerup", endDrag);
+  deck.addEventListener("pointercancel", endDrag);
+
+  // Desktop: rotellina e frecce.
+  let wheelLock = 0;
+  deck.addEventListener("wheel", (e) => {
+    e.preventDefault();
+    const now = Date.now();
+    if (now - wheelLock < 350) return;
+    wheelLock = now;
+    if (e.deltaY > 0) crateNext();
+    else cratePrev();
+  }, { passive: false });
+
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && !crate.hidden && !els.albumDialog.open) closeCrate();
+    if (viewMode !== "crate" || els.albumDialog.open || els.settingsDialog.open) return;
+    if (e.target.tagName === "INPUT" || e.target.tagName === "SELECT") return;
+    if (e.key === "ArrowDown") crateNext();
+    else if (e.key === "ArrowUp") cratePrev();
+    else if (e.key === "ArrowRight" && crateItems[crateIndex]) openAlbum(crateItems[crateIndex]);
   });
 
   /* ---------- Caricamento ---------- */
@@ -396,10 +547,29 @@
 
   /* ---------- Eventi ---------- */
 
-  els.search.addEventListener("input", render);
-  els.genreFilter.addEventListener("change", render);
-  els.formatFilter.addEventListener("change", render);
-  els.sort.addEventListener("change", render);
+  function refreshFromFilters() {
+    crateIndex = 0; // nuova selezione: si riparte dalla cima della cassa
+    render();
+  }
+
+  els.search.addEventListener("input", refreshFromFilters);
+  els.genreFilter.addEventListener("change", refreshFromFilters);
+  els.formatFilter.addEventListener("change", refreshFromFilters);
+  els.sort.addEventListener("change", refreshFromFilters);
+
+  function updateViewButton() {
+    const btn = $("#btn-view");
+    btn.textContent = viewMode === "crate" ? "▦" : "🎴";
+    btn.title = viewMode === "crate" ? "Vista griglia" : "Sfoglia come vinili";
+  }
+
+  $("#btn-view").addEventListener("click", () => {
+    viewMode = viewMode === "crate" ? "grid" : "crate";
+    localStorage.setItem(VIEW_KEY, viewMode);
+    updateViewButton();
+    render();
+  });
+  updateViewButton();
 
   $("#btn-refresh").addEventListener("click", () => loadCollection({ force: true }));
 
