@@ -40,6 +40,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add mappings.json
           git commit -m "Aggiorna mapping streaming (automatico)"
+          # Il branch può essere avanzato durante il run (dura ore): rebase prima del push.
+          git pull --rebase origin "$GITHUB_REF_NAME"
           git push
           # I push fatti con GITHUB_TOKEN non fanno scattare altri workflow:
           # il deploy va lanciato esplicitamente.

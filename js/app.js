@@ -3,7 +3,7 @@
   "use strict";
 
   const DEFAULT_USERNAME = "dipdkg";
-  const CACHE_KEY = "vinyl-streamer:collection:v2"; // v2: aggiunto il campo fmt
+  const CACHE_KEY = "vinyl-streamer:collection:v3"; // v3: aggiunte le note di collezione
   const SETTINGS_KEY = "vinyl-streamer:settings";
   const CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24h, poi si ricarica da Discogs
   const PER_PAGE = 100;
@@ -91,6 +91,9 @@
       format: (b.formats && b.formats[0] && b.formats[0].name) || "",
       fmt: classifyFormat(b.formats),
       added: r.date_added || "",
+      // Note di collezione (es. dove comprato, prezzo). Visibili solo se
+      // pubbliche nelle impostazioni privacy di Discogs.
+      notes: (r.notes || []).map((n) => n.value).filter(Boolean).join(" · "),
     };
   }
 
@@ -277,17 +280,24 @@
     if (r.styles.length) metaParts.push(r.styles.join(", "));
     $("#detail-meta").textContent = metaParts.join(" · ");
 
+    const notesEl = $("#detail-notes");
+    notesEl.hidden = !r.notes;
+    notesEl.textContent = r.notes || "";
+
     // "Various" nella query confonde la ricerca: per le compilation usa solo il titolo.
     const query = r.artist === "Various" ? r.title : `${r.artist} ${r.title}`;
     const q = encodeURIComponent(query);
-    // Con un ID mappato si apre direttamente l'album; altrimenti la ricerca.
+    // Con un ID mappato si apre direttamente l'album ("Ascolta su...");
+    // senza, parte la ricerca ("Cerca su...").
     const map = mappings[String(r.id)] || {};
     $("#link-spotify").href = map.spotify
       ? `https://open.spotify.com/album/${map.spotify}`
       : `https://open.spotify.com/search/${q}`;
+    $("#spotify-label").textContent = map.spotify ? "Ascolta su Spotify" : "Cerca su Spotify";
     $("#link-amazon").href = map.amazon
       ? `https://music.amazon.com/albums/${map.amazon}`
       : `https://music.amazon.com/search/${q}`;
+    $("#amazon-label").textContent = map.amazon ? "Ascolta su Amazon Music" : "Cerca su Amazon Music";
     $("#link-ytmusic").href = `https://music.youtube.com/search?q=${q}`;
     $("#link-discogs").href = `https://www.discogs.com/release/${r.id}`;
 
