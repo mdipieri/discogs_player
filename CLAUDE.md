@@ -22,6 +22,10 @@
 - `mappings.json`: release Discogs → ID album Spotify / ASIN Amazon, generato
   da `scripts/build-mappings.mjs` (workflow `mappings.yml`, lunedì + manuale).
   Odesli non fornisce più link Spotify: quella colonna si popola solo con i
-  secrets `SPOTIFY_CLIENT_ID`/`SPOTIFY_CLIENT_SECRET` (API ufficiale).
+  secrets `SPOTIFY_CLIENT_ID`/`SPOTIFY_CLIENT_SECRET` (API ufficiale). Attenzione:
+  la Search API di Spotify con client credentials richiede che il proprietario
+  dell'app abbia un abbonamento **Premium** attivo, altrimenti risponde 403
+  ("Active premium subscription required for the owner of the app") e la colonna
+  Spotify resta vuota.
 - Verifica: skill di progetto `.claude/skills/verify/SKILL.md` (Playwright con
   API mockate; la sandbox non raggiunge Discogs/iTunes/Deezer/Odesli).
